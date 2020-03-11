@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
-	<title>SuperTasas | Home</title>
+	<title>SuperTasas | Home</title> 
 </head>
 <body>
 
