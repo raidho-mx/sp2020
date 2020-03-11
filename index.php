@@ -4,8 +4,8 @@
 	<div class="container pt-100 pb-md-0 pb-5">
 		<div class="row">
 			<div class="col-lg-6 text-lg-left text-center">
-				<h1 class="is-black c-white txt48 mb-3">Toma el control de tus finanzas y lleva tu dinero <span class="c-green">al siguiente nivel</span></h1>
-				<p class="c-white txt24">Inversión y crédito con tasas súper atractivas para que hagas más con ti dinero.</p>
+				<h1 class="is-black c-white txt48 mb-3"><span class="c-green">Toma el control</span> de tus finanzas y lleva tu dinero al siguiente nivel</h1>
+				<p class="c-white txt24">Inversión y crédito con tasas super atractivas para que hagas más con tu dinero.</p>
 			</div>
 			<div class="col-md-6 d-lg-block d-none">
 				<div class="big-cir bg-img" style="background-image: url('img/bg-home1.png');">
@@ -16,7 +16,7 @@
 		<div class="overlaped-box row p-lg-5 pl-3 pr-3 pt-4 pb-md-4">
 			<div class="col-md-6 border-right-light-gray  pl-md-auto pl-4 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 bg-white text-md-left text-center">
 				<p class="is-black txt24 c-blue mb-3">Inversión</p>
-				<p class="is-bold txt24 c-dark-blue mb-3 mr-lg-5">Invierte desde 1 peso con tasas de hasta el 11% anual</p>
+				<p class="is-bold txt24 c-dark-blue mb-3 mr-lg-5">Invierte desde $1 peso con tasas de hasta el 11% anual</p>
 				<a href="#" class="has-btn bg-blue">Abre tu cuenta</a>
 			</div>
 			<div class="col-md-6 pl-md-5 pl-4 pt-md-0 pt-4 pb-md-0 pb-4 bg-white text-md-left text-center">
@@ -33,7 +33,7 @@
 		<div class="row pt-sm-100">
 			<div class="col-12 text-center">
 				<p class="is-black c-blue txt36 mb-4">Más ahorro y mejores inversiones</p>
-				<p class="is-bold c-dark-blue txt24">Nuestro propósito es promover más ahorro y mejores<br> inversiones, ofreciendo tasas SUPER atractivas.</p>
+				<p class="is-bold c-dark-blue txt24">Nuestro propósito es promover más ahorro y mejores inversiones con tasas SUPER atractivas. </br>Te ayudamos a que tu dinero recupere el poder que ha perdido por culpa de las comisiones, altas tasas de crédito, bajas tasas de interés en ahorro e inversión, la inflación y las letras chiquitas.</p>
 			</div>
 		</div>
 	</div>
@@ -52,7 +52,7 @@
 				<div class="bg-dark-blue cir-x2 rounded-circle fade-in delay1">
 					<div class="c-center text-center">
 						<p class="is-black c-green txt32">+ <span class="numeros count" data-count="12"></span> años</p>
-						<p class="c-white is-bold">En el mercado</p>
+						<p class="c-white is-bold">De experiencia</p>
 					</div>
 				</div>
 			</div>
@@ -102,8 +102,7 @@
 				<h2 class="is-black c-white txt36 mb-4">¿Por qué ofrecemos</br> <span class="c-green">tasas SUPER atractivas?</span></h2>
 				<p class="is-bold c-white txt24 ">Gracias a nuestro modelo de negocios, con pocas sucursales y operación en línea</br> somos capaces de brindarte tasas SUPER atractivas en inversión y crédito.</p>
 			</div>
-			<div class="col-12 text-center">
-				<h2 class="is-black c-white txt36 pt-100 pb-5">¿Cómo funciona <span class="c-green">SuperTasas.com?</span></h2>
+			<div class="col-12 text-center pt-100">
 				<svg id="home-svg" class="homesvg fade-in" width="719px" height="474px" viewBox="0 0 719 474" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 					<defs>
 						<polygon id="path-1" points="0 0 51.8342783 0 51.8342783 53.8560928 0 53.8560928"></polygon>
@@ -190,6 +189,9 @@
 						</g>
 					</g>
 				</svg>
+			</div>
+			<div class="col-12 d-flex justify-content-center pt-100">
+				<a href="#" class="has-btn bg-blue">Abre tu cuenta</a>
 			</div>
 		</div>
 	</div>
