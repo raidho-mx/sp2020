@@ -1,0 +1,623 @@
+/* ELEMENTS */
+
+// SECTION
+section
+	position: relative
+	width: 100%
+
+footer
+	background-color: $c-gray
+	color: $c-black
+	width: 100%
+	@media (max-width: 980px)
+		.has-logo
+			width: 105px
+
+// HEADER
+header
+	background-color: $c-white
+	@include transition(all ease 0.6s)
+	width: 100%
+	position: fixed
+	top: 0
+	z-index: 4
+	a
+		color: $c-black
+		text-decoration: none
+		@include transition(all ease 0.2s)
+	a:hover
+		color: $c-blue
+		@include transition(all ease 0.2s)
+	.has-menu
+		li
+			list-style: none
+	.has-dropdown
+		> a
+			position: relative
+		> a:after
+			content: url('../img/icon-dropdown-arrow.svg')
+			height: 20px
+			width: 29px
+			opacity: 0
+			position: absolute
+			@include transition(all ease 0.3s)
+			top: 41px
+			left: 40px
+		.drop-down
+			visibility: hidden
+			opacity: 0
+			text-align: center
+			left: 0
+			padding-top: 37px
+			@include transition(all ease 0.3s)
+			a:hover
+				text-decoration: underline
+	.has-dropdown:hover
+		> a:after
+			content: url('../img/icon-dropdown-arrow.svg')
+			opacity: 1
+			top: 37px
+			@include transition(all ease 0.3s)
+		.drop-down
+			visibility: visible
+			opacity: 1
+			padding-top: 33px
+			@include transition(all ease 0.3s)
+
+.has-logo
+	@media (max-width: 980px)
+		img
+			max-width: 174px
+
+.has-buro-logo
+	img
+		height: 35px
+
+
+
+// MOBILE ASIDE NAV
+#triggerMenu
+	cursor: pointer
+
+.hero-nav
+	position: fixed
+	height: 100vh
+	width: 100%
+	top: -100vh
+	left: 0
+	@include transition (all ease 0.5s)
+	z-index: 3
+	#hero-menu li
+		margin-bottom: 15px
+	#hero-menu li:last-child
+		margin-bottom: 0px
+	.has-menu a
+		border-bottom: 1px solid $c-dark-blue
+		font-size: 24px
+	.has-menu .has-icon:before
+		display: inline-block
+		position: relative
+		margin-right: 10px
+
+
+.pointer-events-auto
+	pointer-events: auto!important
+
+.hero-nav.show
+	@include transition (all ease 0.5s)
+	position: fixed
+	top: 0
+
+.html-overflow-active
+	height: 100%
+
+.overflow-active
+	-webkit-overflow-scrolling: touch
+	/* -webkit-overflow-scrolling: auto !important; */
+	overflow: hidden
+	left: 0
+	position: fixed
+	height: 100%
+	top: 0
+	width: 100%
+
+.aside-overflow-active
+	top: 50px
+	position: relative
+
+// MASKS
+.dark-mask
+	background: rgba(0,0,0,0.7)
+	pointer-events: none
+	top: 0
+	position: absolute
+	height: 100%
+	width: 100%
+
+.color-mask
+	pointer-events: none
+	top: 0
+	position: absolute
+	height: 100%
+	width: 100%
+
+.espiral-mask
+	background-image: url('../img/bg-espiral-white.png')
+	background-position: center
+	background-repeat: no-repeat
+	background-size: 72%
+	pointer-events: none
+	top: 0
+	//left: 10px
+	position: absolute
+	height: 100%
+	width: 100%
+
+
+// SLIDERS
+.has-slider
+	position: relative
+	z-index: 0
+	.slick-slide
+		display: inline-block
+		vertical-align: top
+	.slick-list
+		overflow: hidden
+	.slick-dots
+		text-align: center
+		margin-top: 50px
+		li
+			+border-radius(100%)
+			background-color: #D8D8D8
+			display: inline-block
+			color: rgba(0,0,0,0)
+			margin-right: 15px
+			height: 13px
+			width: 13px
+			overflow: hidden
+		li:last-child
+			margin-right: 0
+		li button
+			@include appearance(none)
+			+border-radius(100%)
+			background: none
+			border: none
+			color: rgba(0,0,0,0)
+			display: inline-block
+			height: 100%!important
+			width: 100%!important
+		li.slick-active
+			background-color: #4A4A4A
+	@media(max-width: $tablet_b)
+		.slick-dots
+			margin-top: 30px
+
+.has-rounded-arrows
+	padding-bottom: 60px
+	.slick-arrow
+		@include appearance(none)
+		background: transparent
+		border: none
+		color: rgba(0,0,0,0)
+		position: absolute
+		bottom: 0
+		height: 40px
+		width: 40px
+	.slick-prev
+		right: 60px
+		+transform(rotate(180deg))
+		&:after
+			content: url('../img/cir-arrow-select.svg')
+			color: $c-black
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+	.slick-next
+		right: 0px
+		&:after
+			content: url('../img/cir-arrow-select.svg')
+			color: $c-black
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+
+
+.slider-img
+	width: 100%
+	.slick-list
+		@include box-shadow (0 4px 20px 0 rgba(0,0,0,0.2))
+		+border-radius(8px)
+		img
+			+border-radius(8px)
+
+.slider-img-txt
+	width: 100%
+
+.cards-slider
+	.slick-list
+		overflow: inherit
+	.slick-slide
+		max-width: 294px
+		width: 100%
+	.card-x2
+		min-height: 464px
+	.info-btn
+		position: absolute
+		bottom: 0
+		left: inherit
+		right: 120px
+	@media (max-width: $tablet_b)
+		.card-x2
+			min-height: auto
+
+.hero-slider
+	img
+		width: 100%
+	.info-btn
+		span
+			position: relative
+			right: -5px
+	.has-txt
+		position: absolute
+		text-align: left
+		transform-origin: bottom
+		margin-top: 18%
+		right: -140px
+		+transform(rotate(-90deg))
+		@media (max-width: $med_b)
+			a
+				font-size: 14px
+
+.info-btn
+	cursor: pointer
+	width: 25px
+	height: 25px
+	background-color: #F3F3F3
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3)
+	left: -20px
+	position: relative
+	span
+		color: $c-black
+
+//THUMBNAIL IMAGES
+.img-thumb-50
+	+bg-img
+	min-height: 430px
+	@media (max-width: $phone_b)
+		min-height: 250px
+
+.img-card-square
+	+bg-img
+	padding-bottom: 100%
+	width: 100%
+
+.img-card-rectangle
+	+bg-img
+	padding-bottom: 60%
+	width: 100%
+
+.hero-img
+	+bg-img
+	height: 500px
+	width: 100%
+	.has-txt
+		width: 80%
+	@media (max-width: 1360px)
+		.has-txt
+			width: 100%
+	@media (max-width: $phone_b)
+		top: -1px
+		padding-top: 50px
+		padding-bottom: 50px
+		height: auto
+		min-height: 230px
+		.has-txt
+			width: 100%
+
+section.bg-orange
+	@media (max-width: $phone_b)
+		top: -1px
+
+.has-tooltip
+	position: relative
+	height: 13px
+	width: 13px
+	border-radius: 13px
+	border: 1px solid $c-blue
+	font-size: 8px
+	text-align: center
+	line-height: 11px
+	top: -2px
+	right: 20px
+	.tooltip-box
+		text-align: left
+		font-size: 10px
+		color: $c-white
+		position: absolute
+		padding: 10px
+		opacity: 0
+		visibility: hidden
+		pointer-events: none
+		left: -22px
+		width: 170px
+		padding-top: 8px
+		z-index: 1
+		&:after
+			content: ''
+			height: 10px
+			width: 10px
+			background: $c-blue
+			position: absolute
+			+transform(rotate(45deg))
+			top: 3px
+			left: 23px
+	&:hover
+		.tooltip-box
+			opacity: 1
+			visibility: visible
+			pointer-events: auto
+	@media (max-width: 990px)
+		right: -10px
+	@media (max-width: 767px)
+		right: 100px
+	@media (max-width: $phone_b)
+		right: 80px
+		display: none!important
+
+
+@media (max-width: 990px)
+	span.wpcf7-list-item
+		margin-left: 0px
+	span.wpcf7-list-item-label
+		left: -4px
+		position: relative
+		font-size: 16px
+
+
+// TABS
+.tab-menu
+	li
+		margin-right: 40px
+	li:last-child
+		margin-right: 0
+	li a.active
+		color: $c-blue
+		text-decoration: underline
+
+.tab-content
+	width: 100%
+
+.has-fade
+	opacity: 0
+	@include transition(all ease 0.6s)
+	&:nth-child(-n+4)
+		opacity: 1
+
+.has-icon
+	position: relative
+	&:before
+		content: url('../img/icon-phone.svg')
+		background-repeat: no-repeat
+		background-size: contain
+		left: 0
+		top: 1px
+		position: absolute
+
+
+.has-arrow-down.collapsed
+	&:after
+		content: url('../img/icon-arrow-up.svg')
+		+transform(rotate(180deg))
+		right: 20px
+		position: absolute
+
+.has-arrow-down
+	&:after
+		content: url('../img/icon-arrow-up.svg')
+		+transform(rotate(0deg))
+		right: 20px
+		position: absolute
+
+.fade-in
+	opacity: 0
+	top: 60px
+	position: relative
+	+transition(all ease 0.6s)
+
+.fade-in.show
+	opacity: 1
+	top: 0
+	position: relative
+	+transition(all ease 0.6s)
+
+
+// HOME
+.overlaped-box
+	+border-radius(15px)
+	+box-shadow(0 0 30px 0 rgba(0,0,0,0.1))
+	background: white
+	position: relative
+	top: 120px
+	z-index: 1
+	@media (max-width: $tablet_b)
+		top: 110px
+	@media (max-width: $phone_b)
+		top: 0
+		+box-shadow(0 0 0 0 rgba(0,0,0,0))
+		background: none
+		.bg-white
+			+border-radius(15px)
+			+box-shadow(0 0 30px 0 rgba(0,0,0,0.1))
+
+
+.small-cir
+	height: 80px
+	width: 80px
+
+.big-cir
+	+border-radius(100%)
+	padding-bottom: 100%
+	position: absolute
+	top: -100px
+	//left: 60px
+	width: 100%
+
+.cir-x2
+	width: 101px
+	padding-bottom: 101px
+	@media (max-width: $tablet_b)
+		min-width: 80px
+		min-height: 80px
+	@media (max-width: $phone_b)
+		p
+			font-size: 17px
+			line-height: 20px
+
+.cir-x1
+	width: 84%
+	padding-bottom: 84%
+	@media (max-width: $tablet_b)
+		width: 100%
+		padding-bottom: 100%
+
+.cir-x2
+	width: 100%
+	padding-bottom: 100%
+	.c-center
+		position: absolute
+		top: 33%
+		left: 0
+		right: 0
+	@media (max-width: $tablet_b)
+		.c-center
+			top: 36%
+
+
+.has-motion
+	@include transition-duration(0.2s)
+	&:hover
+		+transform(translateY(-0.4rem))
+
+svg
+	width: 100%
+	height: auto
+
+
+#home-svg
+	max-height: 450px
+	overflow: inherit
+
+#home-svg.show
+	.path
+		stroke-dasharray: 1500
+		stroke-dashoffset: 1500
+		animation: dash 1.8s ease-out forwards
+	.ellipse4
+		animation: show 0.4s ease-out forwards
+		opacity: 0
+		animation-delay: 1.3s
+	.ellipse3
+		animation: show 0.4s ease-out forwards
+		opacity: 0
+		animation-delay: 0.8s
+	.ellipse2
+		animation: show 0.4s ease-out forwards
+		opacity: 0
+		animation-delay: 0.4s
+	.ellipse1
+		animation: show 0.4s ease-out forwards
+		opacity: 0
+		animation-delay: 0.2s
+	.path-group-10
+		animation: moveTop 0.5s ease-out forwards
+		opacity: 0
+		animation-delay: 0.4s
+	.path-group-9
+		animation: moveTop 0.5s ease-out forwards
+		opacity: 0
+		animation-delay: 0.6s
+	.path-group-8
+		animation: moveTop 0.5s ease-out forwards
+		opacity: 0
+		animation-delay: 1s
+	.path-group-7
+		animation: moveTop 0.5s ease-out forwards
+		opacity: 0
+		animation-delay: 1.3s
+
+
+@keyframes dash
+	to
+		stroke-dashoffset: 0
+
+@keyframes show
+	to
+		opacity: 1
+
+@keyframes moveTop
+	to
+		opacity: 1
+
+@keyframes moveTopShow
+	to
+		top: 0
+		opacity: 1
+
+@keyframes showLeft
+	to
+		opacity: 1
+		left: 0
+
+@keyframes showRight
+	to
+		opacity: 1
+		right: 0
+
+.fade-in.show.delay1
+	animation: moveTopShow 0.5s ease-out forwards
+	opacity: 0
+	top: 50px
+	animation-delay: 0.2s
+
+.fade-in.show.delay2
+	animation: moveTopShow 0.5s ease-out forwards
+	opacity: 0
+	top: 50px
+	animation-delay: 0.4s
+
+.fade-in.show.delay3
+	animation: moveTopShow 0.5s ease-out forwards
+	opacity: 0
+	top: 50px
+	animation-delay: 0.6s
+
+.fade-in.show.delay4
+	animation: moveTopShow 0.5s ease-out forwards
+	opacity: 0
+	top: 50px
+	animation-delay: 0.8s
+
+.fade-in.show.delay5
+	animation: moveTopShow 0.5s ease-out forwards
+	opacity: 0
+	top: 50px
+	animation-delay: 1s
+
+// MAIN BLOCKS ANIMATIONS
+.fade-in-static
+	animation: show 0.8s ease-out forwards
+	opacity: 0
+
+.fade-left-right
+	animation: showLeft 0.7s ease-out forwards
+	opacity: 0
+	position: relative
+	left: -80px
+
+.fade-right-left
+	animation: showRight 0.7s ease-out forwards
+	opacity: 0
+	position: relative
+	right: -80px
