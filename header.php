@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
-	<title>SuperTasas | Home</title> 
+	<title>SuperTasas | Home</title>
 </head>
 <body>
 
@@ -28,7 +28,7 @@
 			</div>
 			<div class="has-menu ml-auto d-lg-flex d-none flex-wrap align-items-center">
 				<li href="#" class="pl-3 pr-3 is-bold has-dropdown">
-					<a href="#" class="pl-3 pr-3 is-bold">Inversión</a>
+					<a href="inversion.php" class="pl-3 pr-3 is-bold">Inversión</a>
 					<div class="drop-down w-100 position-absolute">
 						<div class="bg-blue pt-2 pb-2">
 							<a href="#" class="c-white">Calcula tus rendimientos</a>
@@ -37,10 +37,10 @@
 						</div>
 					</div>
 				</li>
-				<li><a href="#" class="pl-3 pr-3 is-bold">Crédito</a></li>
-				<li><a href="#" class="pl-3 pr-3 is-bold">Conócenos</a></li>
-				<li><a href="#" class="has-icon c-green pl-3 pr-3 is-bold">(81) 8000 9810</a></li>
-				<li><a href="#" class="has-btn has-sm-btn c-white bg-blue">Contacto</a></li>
+				<li><a href="credito.php" class="pl-3 pr-3 is-bold">Crédito</a></li>
+				<li><a href="conocenos.php" class="pl-3 pr-3 is-bold">Conócenos</a></li>
+				<li><a href="tel:+8180009810" class="has-icon c-green pl-3 pr-3 is-bold">(81) 8000 9810</a></li>
+				<li><a href="#" class="has-btn has-sm-btn c-white bg-blue">Abre tu cuenta</a></li>
 			</div>
 		</nav>
 	</div>
@@ -48,7 +48,7 @@
 
 
 <!-- HERO NAV -->
-<aside class="hero-nav bg-blue d-md-none">
+<aside class="hero-nav bg-blue d-lg-none">
 	<div class="row w-100 m-auto no-gutters">
 		<div class="has-menu col-12 pt-4">
 			<a href="#" class="has-arrow-down collapsed c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Inversión</a>

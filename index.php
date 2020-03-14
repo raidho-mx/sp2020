@@ -39,6 +39,7 @@
 	</div>
 </section>
 
+<!-- NUMERALIA -->
 <section class="bg-white pt-100 pb-100" id="numbers">
 	<div class="container">
 		<div class="row mb-5">
@@ -89,7 +90,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-center">
+		<div class="d-flex justify-content-center fade-in delay5">
 			<a href="#" class="has-btn bg-blue">Conoce más</a>
 		</div>
 	</div>
@@ -190,7 +191,7 @@
 					</g>
 				</svg>
 			</div>
-			<div class="col-12 d-flex justify-content-center pt-100">
+			<div class="col-12 d-flex justify-content-center pt-100 fade-in delay5">
 				<a href="#" class="has-btn bg-blue">Abre tu cuenta</a>
 			</div>
 		</div>

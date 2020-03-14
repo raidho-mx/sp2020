@@ -101,7 +101,7 @@ img
 
 .txt18
 	font-size: 18px
-	line-height: 21px
+	line-height: 28px
 	@media (max-width: $tablet_b)
 		font-size: 16px
 		line-height: 20px
@@ -245,12 +245,6 @@ img
 	-webkit-box-orient: vertical
 	overflow: hidden
 
-.border-right-light-gray
-	border-right: 1px solid $c-light-gray
-	@media (max-width: $phone_b)
-		border-right: inherit
-		border-bottom: 1px solid $c-light-gray
-
 // INPUTS,
 // BUTTONS
 
@@ -295,45 +289,50 @@ input[type="text"],
 input[type="email"],
 input[type="number"]
 	color: $c-black
-	+border-radius(50px)
+	+border-radius(5px)
 	background-color: $c-white
 	font-family: 'NTDapper-Bold'
 	border: none
 	padding: 29px 25px
-	font-size: 18px
-	height: 70px
+	height: 60px
 	width: 100%
 	&::placeholder
 		color: $c-black
 	@media (max-width: $tablet_b)
-		padding: 23px 20px
+		padding: 16px 20px
 		font-size: 16px
 		height: auto!important
+
+.form-control:focus
+	color: $c-black
+	background-color: #fff
+	border-color: #80bdff
+	outline: 0
 
 textarea
 	padding: 19px 25px!important
 
 select
 	color: $c-black
-	+border-radius(50px!important)
+	+border-radius(5px!important)
 	background-color: $c-white
 	font-family: 'NTDapper-Bold'
-	border: none
-	padding: 0 25px
+	border: none!important
+	padding: 16px 25px!important
 	font-size: 18px
-	height: 70px
+	height: inherit!important
 	width: 100%
-	background-image: url('../img/cir-arrow-select.svg')
+	background-image: url('../img/icon-arrow-select.svg')
 	background-repeat: no-repeat
-	background-position: 96% 15px
-	padding-right: 53px
+	background-position: 96% 26px
+	padding-right: 60px!important
 	cursor: pointer
 	@media (max-width: $tablet_b)
 		padding: 11px 20px
 		font-size: 16px
 		height: auto
-		background-position: 96% 10px
-		background-size: 27px
+		background-position: 96% 22px
+		background-size: 20px
 
 .btn-search
 	padding: 29px
@@ -354,7 +353,7 @@ select
 input[type="submit"]
 	background-color: $c-blue
 	+border-radius(50px)
-	border: none
+	border: none!important
 	cursor: pointer
 	color: $c-white
 	font-family: 'NTDapper-Bold'
@@ -371,28 +370,22 @@ input[type="submit"]
 		background-color: $c-blue!important
 		color: white!important
 
-.btn-close
-	width: 3em
-	height: 3em
-	position: absolute
-	right: 0
-	top: 0
-	> div
-		height: 2px
-		background: $c-white
-		margin-bottom: 3px
-	div:nth-child(1)
-		@include transform(rotate(45deg))
-		top: -6px
-		position: relative
-	div:nth-child(2)
-		@include transform(rotate(-45deg))
-		position: relative
-		top: -11px
+.has-mxn-symbol
+	background-image: url('../img/icon-mxn.svg')
+	background-repeat: no-repeat
+	background-position: 95%
+	padding-right: 90px!important
 
-.border-radius-8
-	+border-radius(8px)
+.has-green-input
+	background: $c-green
+	+border-radius(5px)
+	padding: 12px 23px
 
+.has-sm-shadow
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5)
+
+.has-blue-shadow
+	@include box-shadow (0 0px 40px 0 rgba(0,44,102,0.2))
 
 // CHECKBOX
 /* Hide the browser's default checkbox */

@@ -18,60 +18,79 @@ $('.homesvg').addClass('show');
 // ON SCROLL
 	$(window).scroll(function() {
 		var top = $(window).scrollTop();
-		var homeSvg = $('#home-animation').offset().top - 400;
-		var numbers = $('#numbers').offset().top - 500;
+		// SAVE ID'S
+		var homeID = $('#home-animation');
+		var numbersID = $('#numbers');
 
-		if (top > homeSvg) {
-			$('.homesvg').attr("class", "homesvg show");
-		} if (top > numbers) {
-			$('.count').each(function() {
-			  var $this = $(this),
-			    countTo = $this.attr('data-count');
 
-			  $({
-			    countNum: $this.text()
-			  }).animate({
-			      countNum: countTo
-			    },
-
-			    {
-			      duration: 2000,
-			      easing: 'linear',
-			      step: function() {
-			        $this.text(commaSeparateNumber(Math.floor(this.countNum)));
-			      },
-			      complete: function() {
-			        $this.text(commaSeparateNumber(this.countNum));
-			        //alert('finished');
-			      }
-			    }
-			  );
-
-			});
-
-			function commaSeparateNumber(val) {
-			  while (/(\d+)(\d{3})/.test(val.toString())) {
-			    val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
-			  }
-			  return val;
+		if (homeID.length) {
+			var homeSvg = $('#home-animation').offset().top - 400;
+			if (top > homeSvg) {
+				$('.homesvg').attr("class", "homesvg show");
+				$('.fade-in').addClass('show');
 			}
+		}
 
-			// $('.count').each(function () {
-			// 	$(this).prop('Counter',0).animate({
-			// 		Counter: $(this).text()
-			// 	}, {
-			// 		duration: 2000,
-			// 		easing: 'swing',
-			// 		step: function (now) {
-			// 			$(this).text(Math.ceil(now));
-			// 		}
-			// 	});
-			// });
-			
-			$('.numeros').removeClass('count');
-			$('.fade-in').addClass('show');
+		if (numbersID.length) {
+			var numbers = $('#numbers').offset().top - 500;
+			if (top > numbers) {
+				$('.count').each(function() {
+				  var $this = $(this),
+				    countTo = $this.attr('data-count');
+
+				  $({
+				    countNum: $this.text()
+				  }).animate({
+				      countNum: countTo
+				    },
+
+				    {
+				      duration: 2000,
+				      easing: 'linear',
+				      step: function() {
+				        $this.text(commaSeparateNumber(Math.floor(this.countNum)));
+				      },
+				      complete: function() {
+				        $this.text(commaSeparateNumber(this.countNum));
+				        //alert('finished');
+				      }
+				    }
+				  );
+
+				});
+
+				function commaSeparateNumber(val) {
+				  while (/(\d+)(\d{3})/.test(val.toString())) {
+				    val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+				  }
+				  return val;
+				}
+
+				$('.numeros').removeClass('count');
+				$('.fade-in').addClass('show');
+			}
 		}
 	});
+
+//
+	var numbers2ID = $('#numbers2');
+	if (numbers2ID.length) {
+		//var numbers2 = $('#numbers2').offset().top - 500;
+		$('.count').each(function () {
+			$(this).prop('Counter',0).animate({
+				Counter: $(this).text()
+			}, {
+				duration: 1400,
+				easing: 'swing',
+				step: function (now) {
+					$(this).text(Math.ceil(now));
+				}
+			});
+		});
+
+		$('.numeros').removeClass('count');
+		$('.fade-in').addClass('show');
+	}
 
 // HERO MENU
 	$(".triggerMenu").click(function(event) {
@@ -151,8 +170,8 @@ $('.homesvg').addClass('show');
 	});
 
 	$(function () {
-		$('[data-toggle="tooltip"]').tooltip()
-	})
+		$('[data-toggle="tooltip"]').tooltip();
+	});
 
 // INPUT ONLY  NUMBERS
 	// document.getElementById("integer").addEventListener("input", allowOnlyDigits);
@@ -172,9 +191,7 @@ $('.homesvg').addClass('show');
 	  .click(function(event) {
 		// On-page links
 		if (
-		  location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-		  &&
-		  location.hostname == this.hostname
+		  location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname
 		) {
 		  // Figure out element to scroll to
 		  var target = $(this.hash);
@@ -195,7 +212,7 @@ $('.homesvg').addClass('show');
 			  } else {
 				$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
 				$target.focus(); // Set focus again
-			  };
+			  }
 			});
 		  }
 		}

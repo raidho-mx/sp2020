@@ -23,6 +23,9 @@
 .bg-light-gray
 	background-color: $c-light-gray
 
+.bg-green
+	background-color: $c-green
+
 // COLORS
 .c-black
 	color: $c-black
@@ -68,3 +71,25 @@
 	color: $c-green
 	a, &:hover
 		color: $c-green
+
+// BORDERS
+.border-14
+	+border-radius(14px)
+
+.border-right-light-gray
+	border-right: 1px solid $c-light-gray
+	@media (max-width: $phone_b)
+		border-right: inherit
+		border-bottom: 1px solid $c-light-gray
+
+.border-bottom-dark-blue
+	border-bottom: 1px solid $c-dark-blue
+
+.border-bottom-white
+	border-bottom: 2px solid $c-white
+
+.border-md-top-white
+	border-top: 2px solid $c-white
+@media (max-width: $phone_b)
+	.border-md-top-white
+		border-top: none
