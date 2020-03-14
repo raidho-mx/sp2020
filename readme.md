@@ -1,5 +1,5 @@
 ### HOME
-[index.php](http://testbed.raidho.mx/supertasas/index.php){:target="_blank"}
+[index.php](http://testbed.raidho.mx/supertasas/index.php)
 
 ### INVERSIÓN
-[inversion.php](http://testbed.raidho.mx/supertasas/inversion.php){:target="_blank"}
+[inversion.php](http://testbed.raidho.mx/supertasas/inversion.php)
