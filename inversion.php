@@ -7,7 +7,7 @@
 			<div class="col-lg-6 text-lg-left text-center">
 				<h1 class="is-black c-white txt48 mb-3">Invierte y gana el <span class="c-green">11% anual</span></h1>
 				<p class="c-white txt24 mb-5">Invierte tu dinero a la vista o a plazo de forma fácil, confiable y con altos rendimientos.</p>
-				<a href="#" class="has-btn bg-blue mr-md-4">Abre tu cuenta</a>
+				<a href="#" class="has-btn bg-blue mr-sm-4 mb-sm-0 mb-3">Abre tu cuenta</a>
 				<a href="#" class="has-btn bg-white c-dark-blue">Calcula tus ganancias</a>
 			</div>
 			<div class="col-md-6 d-lg-block d-none">
@@ -81,27 +81,27 @@
 			<div class="col-md-6 pl-lg-5">
 				<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">4</span>Tu ganancia es:</p>
 				<div class="bg-white has-sm-shadow p-4 is-bold mb-lg-5 mb-4">
-					<div class="border-bottom-dark-blue pb-4 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
-						<div class="col-6">
+					<div class="border-bottom-dark-blue pb-lg-4 pb-2 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
+						<div class="col-lg-6">
 							<p class="c-dark-blue">Rendimiento Bruto (anual)</p>
 						</div>
-						<div class="col-6 text-right">
+						<div class="col-lg-6 text-lg-right mt-lg-0 mt-3">
 							<p class="c-blue txt24">$0</p>
 						</div>
 					</div>
-					<div class="border-bottom-dark-blue pb-4 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
-						<div class="col-6">
+					<div class="border-bottom-dark-blue pb-lg-4 pb-2 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
+						<div class="col-lg-6">
 							<p class="c-dark-blue">Impuestos (1.45% anual)</p>
 						</div>
-						<div class="col-6 text-right">
+						<div class="col-lg-6 text-lg-right mt-lg-0 mt-3">
 							<p class="c-black txt24">$0</p>
 						</div>
 					</div>
-					<div class="pb-4 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
-						<div class="col-6">
+					<div class="pb-lg-4 pb-2 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
+						<div class="col-lg-6">
 							<p class="c-dark-blue">Cantidad disponible al final de un año.</p>
 						</div>
-						<div class="col-6 text-right">
+						<div class="col-lg-6 text-lg-right mt-lg-0 mt-3">
 							<p class="c-black txt24">$0</p>
 						</div>
 					</div>
