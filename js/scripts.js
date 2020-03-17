@@ -173,15 +173,6 @@ $('.homesvg').addClass('show');
 		$('[data-toggle="tooltip"]').tooltip();
 	});
 
-// INPUT ONLY  NUMBERS
-	// document.getElementById("integer").addEventListener("input", allowOnlyDigits);
-	//
-	// function allowOnlyDigits() {
-	// 	if (this.validity.valid) {
-	// 		this.setAttribute('current-value', this.value.replace(/[^\d]/g, ""));
-	// 	}
-	// 	this.value = this.getAttribute('current-value');
-	// }
 
 // SCROLL TOP
 	$('a[href*="#"]')

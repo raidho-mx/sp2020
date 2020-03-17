@@ -43,16 +43,16 @@
 				<p class="txt24 is-bold c-dark-blue">A la vista</p>
 			</div>
 			<div class="col-12 text-md-right text-center mt-md-0 mt-4 fade-in delay5">
-				<a href="" class="c-blue txt14 has-underline"><b>Consulta GAT*</b></a>
+				<button class="c-blue border-0 txt14 has-underline bg-0" data-toggle="modal" data-target="#ModalGat" id="buttonGat"><b>Consulta GAT*</b></button>
 			</div>
 		</div>
 	</div>
 </section>
 
+<!-- CALCULA TUS GANANCIAS -->
 <section class="bg-blue pt-100 pb-100">
 	<div class="pt-100 d-md-block d-none"></div>
 	<div class="container">
-		<!-- CALCULADORA -->
 		<div class="row bg-gray pl-lg-5 pr-lg-5 pt-lg-5 pb-lg-5 p-3 ml-md-5 mr-md-5">
 			<div class="col-12 mb-lg-5 mb-3">
 				<p class="txt36 c-dark-blue"><strong class="is-black">Calcula tus ganancias:</strong></p>
@@ -137,23 +137,23 @@
 			</div>
 			<div class="col-md-6 pb-md-5 pb-3 c-white">
 				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion1.svg" alt="">Tasas fijas</p>
-				<p class="has-bleed-txt txt24">Al invertir a plazo, mantenemos la misma tasa desde el primero hasta el último día garantizado</p>
+				<p class="has-bleed-txt txt24">Al invertir a plazo, mantenemos la misma tasa desde el primero hasta el último día.</p>
 			</div>
 			<div class="col-md-6 pb-md-5 pb-3 c-white">
 				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion4.svg" alt="">Sin comisiones</p>
 				<p class="has-bleed-txt txt24">Sin comisión por apertura, mensualidad, anualidad, retiro, mantenimiento, etc.</p>
 			</div>
 			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion2.svg" alt="">Mismas tasas para todos:</p>
-				<p class="has-bleed-txt txt24">Todos nuestros clientes son especiales y por ello pagamos la misma tasa sin importar el tamaño de tu inversión, si eres cliente nuevo o cliente antiguo</p>
+				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion2.svg" alt="">Mismas tasas para todos</p>
+				<p class="has-bleed-txt txt24">Pagamos la misma tasa sin importar el tamaño de tu inversión, si eres cliente nuevo o ya tienes tiempo con nosotros.</p>
 			</div>
 			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion5.svg" alt="">Fácil de operar:</p>
-				<p class="has-bleed-txt txt24">Realiza tus inversiones y retiros, consulta de saldos desde la App.</p>
+				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion5.svg" alt="">Fácil de operar</p>
+				<p class="has-bleed-txt txt24">Realiza tus inversiones y retiros, consulta de saldos desde nuestra App.</p>
 			</div>
 			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion3.svg" alt="">Inversión mínima:</p>
-				<p class="has-bleed-txt txt24">Desde $1 peso hasta 5 millones</p>
+				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion3.svg" alt="">Inversión mínima</p>
+				<p class="has-bleed-txt txt24">Desde $1 peso hasta 5 millones de pesos.</p>
 			</div>
 		</div>
 	</div>
@@ -171,7 +171,7 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion6.svg" alt="icono inversión 6">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Llena el formulario</p>
+					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Llena el formulario en línea</p>
 					<p class="has-bleed-txt-sm txt18">• Desde tu celular</p>
 					<p class="has-bleed-txt-sm txt18">• En tu computadora</p>
 				</div>
@@ -181,12 +181,10 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion7.svg" alt="icono inversión 7">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Envía papelería</p>
-						<p class="has-bleed-txt-sm txt18">• Identificación Oficial Vigente</p>
+					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Envía los documentos requeridos a tu ejecutivo asignado</p>
+						<p class="has-bleed-txt-sm txt18">• INE o pasaporte vigentes</p>
 						<p class="has-bleed-txt-sm txt18">• Comprobante de domicilio</p>
-						<p class="has-bleed-txt-sm txt18">• Estado de cuenta bancario</p>
-
-						<p class="txt14 has-bleed-txt-sm pt-3">(Aquí recibirás el dinero que retires de tu cuenta SuperTasas.com)</p>
+						<p class="has-bleed-txt-sm txt18">• Estado de cuenta bancario, aquí recibirás el dinero que retires de tu cuenta SuperTasas.com</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
@@ -194,7 +192,7 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion8.svg" alt="icono inversión 8">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Firma contrato</p>
+					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Firma tu contrato en tu domicilio o en la sucursa</p>
 					<p class="has-bleed-txt-sm txt18">• Agenda una cita en, tu decides el lugar</p>
 				</div>
 			</div>
@@ -203,7 +201,7 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion9.svg" alt="icono inversión 9">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Realiza tu primer deposito</p>
+					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Realiza tu primer depósito</p>
 					<p class="has-bleed-txt-sm txt18">• Vía SPEI</p>
 					<p class="has-bleed-txt-sm txt18">• En Sucursales Bancarias</p>
 				</div>
@@ -216,19 +214,43 @@
 </section>
 
 <!-- BLOQUE "REFIERE Y GANA" -->
-<section class="bg-light-blue pt-100 pb-100">
+<section class="bg-light-blue pt-100 pb-md-5 pb-5">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-md-6 pr-md-5">
+			<div class="col-md-6 pr-md-5 d-md-flex d-none">
 				<div class="cir-x2 rounded-circle bg-img has-blue-shadow" style="background-image: url('img/bg-inversion2.png');"></div>
 			</div>
 			<div class="col-md-6 pl-md-5">
 				<h3 class="c-blue txt36 is-black mb-3">¡Refiere y gana!</h3>
 				<h3 class="c-dark-blue txt36 is-bold mb-3">Gana $500 mxn por cada amigo que invites a invertir</h3>
-				<p class="pb-5">Invita a tus amigos a invertir $20,000 mxn ó más a cualquiera de nuestros plazos y ambos ganan $500 mxn en dinero electrónico.</p>
+				<p class="pb-5">Invita a tus amigos a invertir $20,000 pesos o más en cualquiera de nuestras inversiones a plazo y ambos ganan $500 pesos en dinero electrónico.</p>
 				<a href="#" class="has-btn bg-blue mr-md-4">Conoce más</a>
 			</div>
 		</div>
 	</div>
 </section>
+
+
+<!-- BLOQUE APP -->
+<section class="bg-img bg-app">
+	<div class="bg-espiral-verde"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 pt-100 pb-100">
+				<p class="txt36 is-black c-white pt-100 pb-5">Consulta saldos y movimientos, invierte a plazo o retira tu dinero.</p>
+				<div class="d-flex">
+					<a href="#" class="mr-5"><img src="img/icon-apple.png" alt=""></a>
+					<a href="#"><img src="img/icon-google-play.png" alt=""></a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="img/icon-app.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Modal -->
+<?php include('inc/modal-gat.php'); ?>
+
 <?php include('footer.php'); ?>

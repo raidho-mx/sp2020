@@ -113,6 +113,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icon-app.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94501,
+		"inputAbbreviatedPath": "\/img\/icon-app.png",
+		"outputAbbreviatedPath": "\/img\/icon-app.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-apple.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6393,
+		"inputAbbreviatedPath": "\/img\/icon-apple.png",
+		"outputAbbreviatedPath": "\/img\/icon-apple.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icon-dropdown-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -120,6 +142,17 @@
 		"initialSize": 294,
 		"inputAbbreviatedPath": "\/img\/icon-dropdown-arrow.png",
 		"outputAbbreviatedPath": "\/img\/icon-dropdown-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-google-play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7943,
+		"inputAbbreviatedPath": "\/img\/icon-google-play.png",
+		"outputAbbreviatedPath": "\/img\/icon-google-play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -156,6 +189,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/inc\/modal-gat.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/modal-gat.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,
