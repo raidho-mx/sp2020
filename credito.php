@@ -216,7 +216,7 @@
 <!-- BLOQUE "REFIERE Y GANA" -->
 <section class="bg-light-blue pt-100 pb-md-5 pb-5">
 	<div class="container">
-		<div class="row align-items-center text-md-left text-center">
+		<div class="row align-items-center">
 			<div class="col-md-6 pr-md-5 d-md-flex d-none">
 				<div class="cir-x2 rounded-circle bg-img has-blue-shadow" style="background-image: url('img/bg-inversion2.png');"></div>
 			</div>
@@ -236,14 +236,14 @@
 	<div class="bg-espiral-verde"></div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 pt-100 pb-100 text-sm-left text-center">
+			<div class="col-md-6 pt-100 pb-100">
 				<p class="txt36 is-black c-white pt-100 pb-5">Consulta saldos y movimientos, invierte a plazo o retira tu dinero.</p>
-				<div class="d-flex align-items-center flex-column flex-md-row">
-					<a href="https://apps.apple.com/app/id1233435689" class="mr-md-5 mb-md-0 mb-4"><img src="img/icon-apple.png" alt=""></a>
-					<a href="https://play.google.com/store/apps/details?id=crediclub.supertasasmobil"><img src="img/icon-google-play.png" alt=""></a>
+				<div class="d-flex">
+					<a href="#" class="mr-5"><img src="img/icon-apple.png" alt=""></a>
+					<a href="#"><img src="img/icon-google-play.png" alt=""></a>
 				</div>
 			</div>
-			<div class="col-md-6 d-flex">
+			<div class="col-md-6">
 				<img src="img/icon-app.png" alt="">
 			</div>
 		</div>
