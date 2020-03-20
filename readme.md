@@ -3,3 +3,6 @@
 
 ### INVERSIÓN
 [inversion.php](http://testbed.raidho.mx/supertasas/inversion.php)
+
+### CRÉDITO
+[credito.php](http://testbed.raidho.mx/supertasas/credito.php)
