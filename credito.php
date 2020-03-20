@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <section class="bg-dark-blue bg-espiral">
-	<div class="container pt-100 pb-md-0 pb-5">
+	<div class="container pt-100 pb-md-0 pb-3">
 		<!-- BLOQUE PRINCIPAL C/IMAGEN -->
 		<div class="row mb-md-0 mb-4">
 			<div class="col-lg-6 text-lg-left text-center">
@@ -16,16 +16,16 @@
 			</div>
 		</div>
 		<!-- NUMERALIA -->
-		<div class="overlaped-box row pl-md-5 pr-md-5 pt-md-5 pb-md-4 pr-0 pt-3 pb-3" id="numbers3">
-			<div class="col-md-3 border-right-light-gray pl-0 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay1">
+		<div class="overlaped-box row pl-md-5 pr-md-5 pt-md-5 pb-md-4 pr-0 pt-3 pb-0" id="numbers3">
+			<div class="col-md-3 border-right-light-gray bg-white pl-0 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay1">
 				<p class="is-black txt48 c-blue mb-3">+<span class="numeros count" data-count="13300"></span></p>
 				<p class="txt24 is-bold c-dark-blue">Acreditados</p>
 			</div>
-			<div class="col-md-5 border-right-light-gray pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay2">
+			<div class="col-md-5 border-right-light-gray bg-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay2">
 				<p class="is-black txt48 c-blue mb-3"><span class="numeros count" data-count="9"></span>.<span class="numeros count" data-count="97"></span>%</p>
 				<p class="txt24 is-bold c-dark-blue pb-3">Índice de Desempeño de Atención a Usuarios de CONDUSEF periodo de enero a julio 2019.</p>
 			</div>
-			<div class="col-md-4 pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay3">
+			<div class="col-md-4 bg-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay3">
 				<p class="is-black txt48 c-blue mb-3">+<span class="numeros count" data-count="10000"></span> M</p>
 				<p class="txt24 is-bold c-dark-blue">De pesos prestados</p>
 			</div>
@@ -38,11 +38,11 @@
 	<div class="pt-100 d-md-block d-none"></div>
 	<div class="container">
 		<div class="row bg-gray pl-lg-5 pr-lg-5 pt-lg-5 pb-lg-5 p-sm-3 pt-3 p-0 ml-md-5 mr-md-5">
-			<div class="col-12 mb-lg-5 mb-3">
+			<div class="col-12 mb-lg-5 mb-4 pl-lg-0 pl-4">
 				<p class="txt36 c-dark-blue"><strong class="is-black">Calcula tu ahorro con SuperTasas.com:</strong></p>
 			</div>
 			<!-- PRIMER COLUMNA -->
-			<div class="col-lg-6 pr-lg-5 pb-lg-0">
+			<div class="col-lg-6 pr-lg-5 pb-lg-0 pl-lg-0 pl-4 pr-4">
 				<div class="form-row">
 					<div class="col-12 mb-lg-3 mb-4">
 						<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">1</span>¿Cuánto debes?</p>
@@ -78,8 +78,8 @@
 				</div>
 			</div>
 			<!-- SEGUNDA COLUMNA -->
-			<div class="col-lg-6 pl-lg-5  p-sm-auto p-0">
-				<p class="is-bold c-dark-blue mb-3 pl-sm-auto pl-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">6</span>Tu ganancia es:</p>
+			<div class="col-lg-6 p-sm-auto p-0">
+				<p class="is-bold c-dark-blue mb-3 pl-lg-0 pl-4 pr-4"><span class="cir-30x30 bg-dark-blue c-white mr-2">6</span>Tu ganancia es:</p>
 				<div class="bg-white has-md-shadow is-bold mb-lg-0 mb-4 p-3">
 					<!-- BLOQUE "TU GANANCIA BREAK (DESKTOP)" -->
 					<div class="d-lg-block d-none mb-md-5 mb-4">
@@ -187,7 +187,9 @@
 							<a href="#" class="has-btn has-md-btn bg-blue c-white no-wrap">Solicita tu crédito</a>
 						</div>
 						<div class="col-lg-6 col-12">
-							<a href="#" class="txt14 c-black"><u>Ver tabla de amortización</u></a>
+							<a class="c-black txt14" data-toggle="collapse" href="#collapseTabla" role="button" aria-expanded="false" aria-controls="collapseTabla">
+								<u>Ver tabla de amortización</u>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -197,7 +199,7 @@
 			</div>
 		</div>
 		<!-- BLOQUE "TABLA DE AMORTIZACIÓN" -->
-		<div class="row p-3 pl-lg-5 pr-lg-5 pt-4 pb-5 bg-gray ml-md-5 mr-md-5 border-md-top-white overflow-hidden">
+		<div class="row p-3 pl-lg-5 pr-lg-5 pt-4 pb-md-5 pb-0 bg-gray ml-md-5 mr-md-5 border-md-top-white overflow-hidden collapse show" id="collapseTabla">
 			<div class="col-12 text-center pt-4 pb-md-5 pb-3">
 				<p class="is-bold c-dark-blue txt24">Tabla de amortización</p>
 			</div>
@@ -334,6 +336,11 @@
 						</tr>
 					</tbody>
 				</table>
+				<div class="text-center pt-4">
+					<a class="c-black" data-toggle="collapse" href="#collapseTabla" role="button" aria-expanded="false" aria-controls="collapseTabla">
+						<u class="txt14">Ocultar tabla de amortización</u>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="row p-3 pl-lg-5 pr-lg-5 pt-4 pb-5 bg-gray ml-md-5 mr-md-5 border-md-top-white">
@@ -506,23 +513,23 @@
 			<div class="col-12 pb-100 text-center">
 				<p class="c-dark-gray txt36 is-black">¿Cómo funciona?</p>
 			</div>
-			<div class="col-xl-2dot4 col-md-4 col-6 text-center mb-xl-0 mb-4">
+			<div class="col-xl-2dot4 col-md-4 col-sm-6 text-center mb-xl-0 mb-4">
 				<img src="img/icon-credito8.svg" alt="" class="m-auto pb-3">
 				<p class="txt24">Realiza tu solicitud en línea.</p>
 			</div>
-			<div class="col-xl-2dot4 col-md-4 col-6 text-center mb-xl-0 mb-4">
+			<div class="col-xl-2dot4 col-md-4 col-sm-6 text-center mb-xl-0 mb-4">
 				<img src="img/icon-credito9.svg" alt="" class="m-auto pb-3">
 				<p class="txt24">Espera tu análisis crediticio y obtén respuesta en menos de 24 hrs.</p>
 			</div>
-			<div class="col-xl-2dot4 col-md-4 col-6 text-center mb-xl-0 mb-4">
+			<div class="col-xl-2dot4 col-md-4 col-sm-6 text-center mb-xl-0 mb-4">
 				<img src="img/icon-credito10.svg" alt="" class="m-auto pb-3">
 				<p class="txt24">Envía tu documentación.</p>
 			</div>
-			<div class="col-xl-2dot4 col-md-4 col-6 text-center mb-xl-0 mb-4">
+			<div class="col-xl-2dot4 col-md-4 col-sm-6 text-center mb-xl-0 mb-4">
 				<img src="img/icon-credito12.svg" alt="" class="m-auto pb-3">
 				<p class="txt24">Firma tu solicitud.</p>
 			</div>
-			<div class="col-xl-2dot4 col-md-4 col-6 text-center mb-xl-0 mb-4">
+			<div class="col-xl-2dot4 col-md-4 col-sm-6 text-center mb-xl-0 mb-4">
 				<img src="img/icon-credito11.svg" alt="" class="m-auto pb-3">
 				<p class="txt24">Recibe tu crédito y paga menos.</p>
 			</div>
