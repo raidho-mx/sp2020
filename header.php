@@ -54,7 +54,7 @@
 			<a href="#" class="has-arrow-down collapsed c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Inversión</a>
 			<div class="collapse bg-dark-blue" id="collapse1">
 				<div class="pt-3 pb-3 pl-4 pr-4">
-					<a href="inversión.php" class="c-white pb-3 d-block w-100 border-bottom">Calcula tus rendimientos</a>
+					<a href="inversion.php" class="c-white pb-3 d-block w-100 border-bottom">Calcula tus rendimientos</a>
 					<a href="#" class="c-white pb-3 pt-3 d-block w-100 border-bottom">Tasas</a>
 					<a href="#" class="c-white pt-3 d-block w-100">Programa de referidos</a>
 				</div>
