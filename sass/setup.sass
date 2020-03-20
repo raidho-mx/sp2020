@@ -48,6 +48,9 @@ img
 	max-width: 100%
 	height: auto
 
+.word-break
+	word-break: break-all
+
 .no-underline
 	text-decoration: none!important
 	&:hover
@@ -134,7 +137,7 @@ img
 		font-size: 24px
 		line-height: 29px
 	@media (max-width: 600px)
-		font-size: 18px
+		font-size: 22px
 		line-height: 29px
 
 .txt32
@@ -195,6 +198,21 @@ img
 	@media (max-width: $tablet_b)
 		height: 100%
 		top: 0%
+
+.bg-espiral-azul
+	background-image: url('../img/bg-espiral-blue.svg')
+	opacity: 0.1
+	background-repeat: no-repeat
+	background-size: cover
+	width: 100%
+	height: 100%
+	top: 0%
+	position: absolute
+	background-position: left center
+	@media (max-width: $tablet_b)
+		height: 100%
+		top: 0%
+
 
 .bg-app
 	background: linear-gradient(0deg, #282828 85%, #E6ECFF 85%)
@@ -263,11 +281,15 @@ img
 	-webkit-box-orient: vertical
 	overflow: hidden
 
+.overflow-x-scroll
+	overflow-x: scroll
+
 // INPUTS,
 // BUTTONS
 
 .has-btn
 	+border-radius(30px)
+	border: none!important
 	display: inline-block
 	text-align: center
 	font-size: 18px
@@ -289,6 +311,13 @@ img
 
 .has-sm-btn
 	padding: 11px 30px
+	@media (max-width: $med_b)
+		padding: 9px 30px
+
+.has-md-btn
+	padding: 17px 30px
+	@media (max-width: $med_b)
+		padding: 9px 30px
 
 .btn-circle
 	height: 40px
@@ -342,14 +371,14 @@ select
 	width: 100%
 	background-image: url('../img/icon-arrow-select.svg')
 	background-repeat: no-repeat
-	background-position: 96% 26px
-	padding-right: 60px!important
+	background-position: right 26px
+	padding-right: 35px!important
 	cursor: pointer
 	@media (max-width: $tablet_b)
 		padding: 11px 20px
 		font-size: 16px
 		height: auto
-		background-position: 96% 22px
+		background-position: right 22px
 		background-size: 20px
 
 .btn-search
@@ -392,7 +421,7 @@ input[type="submit"]
 	background-image: url('../img/icon-mxn.svg')
 	background-repeat: no-repeat
 	background-position: 95%
-	padding-right: 90px!important
+	padding-right: 70px!important
 
 .has-green-input
 	background: $c-green
@@ -400,7 +429,10 @@ input[type="submit"]
 	padding: 12px 23px
 
 .has-sm-shadow
-	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5)
+	+box-shadow(0px 2px 4px 0px rgba(0,0,0,0.5))
+
+.has-md-shadow
+	+box-shadow(0px 0px 30px 0px rgba(0,0,0,0.1))
 
 .has-blue-shadow
 	@include box-shadow (0 0px 40px 0 rgba(0,44,102,0.2))
