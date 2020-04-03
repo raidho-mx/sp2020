@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
 	<title>SuperTasas | Home</title>
@@ -39,6 +40,7 @@
 				</li>
 				<li><a href="credito.php" class="pl-3 pr-3 is-bold">Crédito</a></li>
 				<li><a href="conocenos.php" class="pl-3 pr-3 is-bold">Conócenos</a></li>
+				<li><a href="blog.php" class="pl-3 pr-3 is-bold">Blog</a></li>
 				<li><a href="tel:+8180009810" class="has-icon c-green pl-3 pr-3 is-bold">(81) 8000 9810</a></li>
 				<li><a href="#" class="has-btn has-sm-btn c-white bg-blue">Abre tu cuenta</a></li>
 			</div>

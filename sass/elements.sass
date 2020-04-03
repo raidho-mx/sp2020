@@ -132,6 +132,9 @@ header
 	position: relative
 
 // MASKS
+.cursor-pointer
+	cursor: pointer
+
 .dark-blue-mask
 	background: rgba(0,44,102,0.7)!important
 
@@ -172,6 +175,17 @@ header
 		vertical-align: top
 	.slick-list
 		overflow: hidden
+	.slider__counter
+		font-family: 'NTDapper-Regular'
+		color: white
+		width: 122px
+		left: 62px
+		position: absolute
+		font-size: 14px
+		text-align: center
+		bottom: 0px
+		@media (max-width: $tablet_b)
+			left: 49px
 	.slick-dots
 		text-align: center
 		margin-top: 50px
@@ -197,40 +211,49 @@ header
 			width: 100%!important
 		li.slick-active
 			background-color: #4A4A4A
-	@media(max-width: $tablet_b)
-		.slick-dots
-			margin-top: 30px
+	@media (max-width: $phone_b)
+		margin-bottom: 50px
+		.slider__counter
+			left: 0
+			right: 0
+			margin: 0 auto
+			bottom: -43px
 
-.has-rounded-arrows
-	padding-bottom: 60px
+.has-white-arrows
 	.slick-arrow
 		@include appearance(none)
 		background: transparent
+		color: transparent
 		border: none
-		color: rgba(0,0,0,0)
 		position: absolute
 		bottom: 0
-		height: 40px
+		height: 20px
 		width: 40px
+		z-index: 5
 	.slick-prev
-		right: 60px
-		+transform(rotate(180deg))
+		left: 0px
 		&:after
-			content: url('../img/cir-arrow-select.svg')
-			color: $c-black
+			content: url('../img/slider-arrow-left.svg')
 			position: absolute
 			left: 0
 			top: 0
 			right: 0
+		@media (min-width: $tablet_b)
+			left: 28px
 	.slick-next
-		right: 0px
+		left: 180px
 		&:after
-			content: url('../img/cir-arrow-select.svg')
-			color: $c-black
+			content: url('../img/slider-arrow-right.svg')
 			position: absolute
 			left: 0
 			top: 0
 			right: 0
+	@media (max-width: $phone_b)
+		.slick-arrow
+			bottom: -43px
+		.slick-next
+			right: 0
+			left: inherit
 
 
 .slider-img
@@ -467,6 +490,23 @@ section.bg-orange
 		img
 			max-width: 80px
 
+.overlaped-img-center
+	position: relative
+	height: 60px
+	top: -80px
+	margin: 0 auto
+	img
+		margin: 0 auto
+	@media (max-width: $tablet_b)
+		top: -50px
+		height: 80px
+		img
+			max-width: 100px
+	@media (max-width: $phone_b)
+		top: 0px
+		height: 80px
+		img
+			max-width: 80px
 
 .fade-in
 	opacity: 0
@@ -574,6 +614,9 @@ section.bg-orange
 
 .border-12px
 	+border-radius(12px)
+
+.border-14px
+	+border-radius(14px)
 
 .has-motion
 	@include transition-duration(0.2s)

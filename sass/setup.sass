@@ -225,6 +225,62 @@ img
 .vh80
 	height: 80vh
 
+
+.has-content
+	b, strong
+		font-family: 'NTDapper-Bold'
+	a
+		color: $c-blue
+		text-decoration: underline
+	p
+		font-size: 18px
+		line-height: 26px
+	h3
+		font-size: 24px
+		line-height: 29px
+		@media (max-width: $tablet_b)
+			font-size: 18px
+			line-height: 24px
+	h2
+		font-size: 28px
+		line-height: 35px
+		@media (max-width: $tablet_b)
+			font-size: 18px
+			line-height: 24px
+
+	h1
+		font-size: 36px
+		line-height: 48px
+		@media (max-width: $med_b)
+			font-size: 32px
+			line-height: 44px
+		@media (max-width: $tablet_b)
+			font-size: 24px
+			line-height: 29px
+		@media (max-width: 600px)
+			font-size: 22px
+			line-height: 29px
+	li
+		counter-increment: li
+		list-style-type: none
+		margin: 0 auto
+		font-size: 18px
+		line-height: 26px
+		margin-top: 30px
+		width: 80%
+	li:nth-last-of-type(1)
+		margin-bottom: 30px
+	li:before
+		font-family: 'NTDapper-Bold'
+		content: counter(li) ".\00a0 \00a0 \00a0"
+		color: $c-blue
+		display: inline-block
+	@media (max-width: $tablet_b)
+		p
+			font-size: 16px
+			line-height: 24px
+
+
 .has-list-bullets
 	li:after
 		content: '•'
@@ -242,7 +298,7 @@ img
 
 .video-wrap
 	position: relative
-	padding-bottom: 39.25%
+	padding-bottom: 66.25%
 	padding-top: 0
 	height: 0
 	max-width: 1000px
@@ -294,7 +350,7 @@ img
 	text-align: center
 	font-size: 18px
 	font-family: 'NTDapper-Bold'
-	min-width: 140px
+	min-width: 160px
 	padding: 17px 50px
 	text-decoration: none
 	@include transition (all ease 0.3s)
@@ -379,6 +435,31 @@ select
 		font-size: 16px
 		height: auto
 		background-position: right 22px
+
+select.has-blue-select
+	color: $c-blue
+	+border-radius(50px!important)
+	background-color: $c-white
+	font-family: 'NTDapper-Regular'
+	border: solid 2px $c-blue!important
+	padding: 17px 60px !important
+	font-size: 18px
+	height: inherit!important
+	background-image: url('../img/icon-arrow-select-blue.svg')
+	background-repeat: no-repeat
+	background-position: 83% 25px
+	padding-right: 80px !important
+	cursor: pointer
+	width: auto!important
+	@media (max-width: $tablet_b)
+		background-position: 86% 15px !important
+		background-position: right 22px
+		background-size: 12px
+		font-size: 14px
+		height: auto
+		padding: 6px 25px!important
+		padding-right: 40px !important
+
 
 .btn-search
 	padding: 29px
