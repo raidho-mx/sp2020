@@ -9,7 +9,7 @@
 				<a href="#" class="has-btn bg-blue mr-sm-4 mb-sm-0 mb-3"  data-toggle="modal" data-target="#ModalReferidos">¡Gana ahora!</a>
 			</div>
 			<div class="col-md-6 d-lg-block d-none">
-				<div class="big-cir bg-img" style="background-image: url('img/bg-inversion1.png');">
+				<div class="big-cir bg-img" style="background-image: url('img/bg-referidos1.png');">
 					<div class="espiral-mask"></div>
 				</div>
 			</div>
