@@ -6,3 +6,6 @@
 
 ### CRÉDITO
 [credito.php](http://testbed.raidho.mx/supertasas/credito.php)
+
+### PROGRAMA DE REFERIDOS
+[programa-referidos.php](http://testbed.raidho.mx/supertasas/programa-referidos.php)
