@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 56 0 56 44 0 44"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(0.000000, 0.000000)">
+            <path d="M0,55 C0,24.75 24.75,0 55,0 C85.25,0 110,24.75 110,55 C110,85.25 85.25,110 55,110 C24.75,110 0,85.25 0,55 Z" id="Shape-Copy" fill="#00DF82" fill-rule="nonzero" transform="translate(55.000000, 55.000000) scale(-1, 1) rotate(-180.000000) translate(-55.000000, -55.000000) "></path>
+            <g id="Group-3" transform="translate(27.000000, 33.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M50.4,11 L28,24.75 L5.59954656,11 L5.59954656,5.49955466 L28,19.2495547 L50.4,5.49955466 L50.4,11 Z M50.4,0 L5.59954656,0 C2.51977328,0 0.0272064777,2.47433198 0.0272064777,5.49955466 L0,38.5 C0,41.5238866 2.51977328,44 5.59954656,44 L50.4,44 C53.478413,44 56,41.5238866 56,38.5 L56,5.49955466 C56,2.47433198 53.478413,0 50.4,0 L50.4,0 Z" id="Fill-1" fill="#002C66" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

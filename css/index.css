@@ -189,7 +189,7 @@ img {
   background-image: url("../img/bg-espiral-faded.svg");
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: bottom center; }
+  background-position: top -370px center; }
 
 .bg-espiral-verde {
   background-image: url("../img/bg-inversion3.svg");
@@ -433,6 +433,21 @@ input[type="number"] {
       font-size: 16px;
       height: auto !important; } }
 
+.has-gray-placeholder {
+  font-family: "NTDapper-Regular" !important;
+  color: #000000 !important; }
+  .has-gray-placeholder::placeholder {
+    font-family: "NTDapper-Regular" !important;
+    color: #9B9B9B !important; }
+
+select.has-gray-placeholder {
+  padding: 18px 25px !important;
+  background-image: url("../img/icon-arrow-select-gray.svg");
+  background-repeat: no-repeat;
+  background-position: 94% 26px; }
+  select.has-gray-placeholder option {
+    color: #000000; }
+
 .form-control:focus {
   color: #000000;
   background-color: #fff;
@@ -514,9 +529,10 @@ input[type="submit"] {
   color: #FFFFFF;
   font-family: "NTDapper-Bold";
   font-size: 18px;
-  padding: 12px 56px;
-  height: 70px;
-  max-width: 316px;
+  line-height: 0;
+  padding: 28px 50px;
+  min-width: 160px;
+  max-width: 260px;
   -webkit-transition: all ease 0.6s;
   -moz-transition: all ease 0.6s;
   -ms-transition: all ease 0.6s;
@@ -707,6 +723,12 @@ input[type="submit"] {
 .bg-white {
   background-color: #FFFFFF; }
 
+.bg-white-md {
+  background-color: #FFFFFF; }
+  @media (max-width: 992px) {
+    .bg-white-md {
+      background-color: transparent; } }
+
 .bg-blue {
   background-color: #0074FF; }
 
@@ -727,6 +749,27 @@ input[type="submit"] {
 
 .bg-green {
   background-color: #00DF82; }
+
+.bg-blue-to-gray {
+  background-color: #002C66; }
+  .bg-blue-to-gray:after {
+    content: "";
+    width: 100%;
+    height: 24%;
+    background: #F4F6FA;
+    position: absolute;
+    bottom: 0; }
+  @media (max-width: 992px) {
+    .bg-blue-to-gray:after {
+      content: "";
+      width: 100%;
+      height: 24%;
+      background: #F4F6FA;
+      position: absolute;
+      bottom: 0; } }
+  @media (max-width: 768px) {
+    .bg-blue-to-gray:after {
+      content: none; } }
 
 .c-CDCDCD {
   color: #CDCDCD; }
@@ -772,6 +815,12 @@ input[type="submit"] {
   color: #0074FF; }
   .c-blue a, .c-blue:hover {
     color: #0074FF; }
+
+.c-blue-sm-white {
+  color: #0074FF; }
+  @media (max-width: 768px) {
+    .c-blue-sm-white {
+      color: #FFFFFF; } }
 
 .c-green {
   color: #00DF82; }

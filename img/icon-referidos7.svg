@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(0.000000, 0.000000)">
+            <path d="M0,55 C0,24.75 24.75,0 55,0 C85.25,0 110,24.75 110,55 C110,85.25 85.25,110 55,110 C24.75,110 0,85.25 0,55 Z" id="Shape-Copy-2" fill="#00DF82" fill-rule="nonzero" transform="translate(55.000000, 55.000000) scale(-1, 1) rotate(-180.000000) translate(-55.000000, -55.000000) "></path>
+            <path d="M38,72 L45,72 L45,65 L38,65 L38,72 Z M38,59 L45,59 L45,52 L38,52 L38,59 Z M38,46 L45,46 L45,39 L38,39 L38,46 Z M51,72 L71,72 L71,65 L51,65 L51,72 Z M51,59 L71,59 L71,52 L51,52 L51,59 Z M51,46 L71,46 L71,39 L51,39 L51,46 Z M81.0491601,26 L27.9495801,26 C26.3110178,26 25,27.3110178 25,28.9495801 L25,82.0491601 C25,83.3614377 26.3110178,85 27.9495801,85 L81.0491601,85 C82.3614377,85 84,83.3614377 84,82.0491601 L84,28.9495801 C84,27.3110178 82.3614377,26 81.0491601,26 L81.0491601,26 Z M32,79 L78,79 L78,33 L32,33 L32,79 Z" id="Fill-1" fill="#002C66"></path>
+        </g>
+    </g>
+</svg>

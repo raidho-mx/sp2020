@@ -183,7 +183,7 @@ img
 	background-image: url('../img/bg-espiral-faded.svg')
 	background-repeat: no-repeat
 	background-size: auto
-	background-position: bottom center
+	background-position: top -370px center
 
 .bg-espiral-verde
 	background-image: url('../img/bg-inversion3.svg')
@@ -408,6 +408,21 @@ input[type="number"]
 		font-size: 16px
 		height: auto!important
 
+.has-gray-placeholder
+	font-family: 'NTDapper-Regular'!important
+	color: $c-black!important
+	&::placeholder
+		font-family: 'NTDapper-Regular'!important
+		color: #9B9B9B!important
+
+select.has-gray-placeholder
+	padding: 18px 25px!important
+	background-image: url('../img/icon-arrow-select-gray.svg')
+	background-repeat: no-repeat
+	background-position: 94% 26px
+	option
+		color: $c-black
+
 .form-control:focus
 	color: $c-black
 	background-color: #fff
@@ -487,9 +502,10 @@ input[type="submit"]
 	color: $c-white
 	font-family: 'NTDapper-Bold'
 	font-size: 18px
-	padding: 12px 56px
-	height: 70px
-	max-width: 316px
+	line-height: 0
+	padding: 28px 50px
+	min-width: 160px
+	max-width: 260px
 	@include transition (all ease 0.6s)
 	@media (max-width: $tablet_b)
 		height: auto!important

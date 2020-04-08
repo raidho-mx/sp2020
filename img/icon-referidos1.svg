@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="120px" viewBox="0 0 135 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon-inversion6 copy 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-inversion6-copy-5">
+            <g id="icon-inversion6-copy">
+                <path d="M0,65 C0,34.75 24.75,10 55,10 C85.25,10 110,34.75 110,65 C110,95.25 85.25,120 55,120 C24.75,120 0,95.25 0,65 Z" id="Shape" fill="#0274FF" fill-rule="nonzero" transform="translate(55.000000, 65.000000) scale(-1, 1) rotate(-180.000000) translate(-55.000000, -65.000000) "></path>
+                <g id="Group-7" transform="translate(85.000000, 0.000000)" fill-rule="nonzero">
+                    <circle id="Oval" fill="#002C66" cx="25" cy="25" r="25"></circle>
+                    <path d="M27.556,33 L27.556,17.04 L24.988,17.04 L24.988,17.976 C24.988,19.776 24.412,20.352 22.396,20.352 L21.1,20.352 L21.1,22.872 L24.604,22.872 L24.604,33 L27.556,33 Z" id="1" fill="#FFFFFF"></path>
+                </g>
+                <path d="M55.5,52 C58.5241081,52 61,49.3003243 61,46 C61,42.6996757 58.5241081,40 55.5,40 C52.4747027,40 50,42.6996757 50,46 C50,49.3003243 52.4747027,52 55.5,52 L55.5,52 Z M75.7777778,52 C69.3992312,53.6630135 61.9179099,54.375 55,54.375 C48.0820901,54.375 40.6020901,53.6630135 34.2222222,52 L33,56.75 C37.5464024,57.9375 42.7777778,58.7213784 47.6666667,59.125 L47.6666667,90 L52.5555556,90 L52.5555556,75.75 L57.4444444,75.75 L57.4444444,90 L62.3333333,90 L62.3333333,59.125 C67.2222222,58.7213784 72.4549189,57.9375 77,56.75 L75.7777778,52 Z" id="Fill-1" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

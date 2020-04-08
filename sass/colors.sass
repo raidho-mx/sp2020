@@ -14,6 +14,11 @@
 .bg-white
 	background-color: $c-white
 
+.bg-white-md
+	background-color: $c-white
+	@media (max-width: $tablet_b)
+		background-color: transparent
+
 .bg-blue
 	background-color: $c-blue
 
@@ -35,12 +40,33 @@
 .bg-green
 	background-color: $c-green
 
+.bg-blue-to-gray
+	background-color: $c-dark-blue
+	&:after
+		content: ''
+		width: 100%
+		height: 24%
+		background: $c-light-gray
+		position: absolute
+		bottom: 0
+	@media (max-width: $tablet_b)
+		&:after
+			content: ''
+			width: 100%
+			height: 24%
+			background: $c-light-gray
+			position: absolute
+			bottom: 0
+	@media (max-width: $phone_b)
+		&:after
+			content: none
+
 // COLORS
 .c-CDCDCD
 	color: #CDCDCD
 	a, &:hover
 		color: #CDCDCD
-		
+
 .c-black
 	color: $c-black
 	a, &:hover
@@ -80,6 +106,11 @@
 	color: $c-blue
 	a, &:hover
 		color: $c-blue
+
+.c-blue-sm-white
+	color: $c-blue
+	@media (max-width: $phone_b)
+		color: $c-white
 
 .c-green
 	color: $c-green

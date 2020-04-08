@@ -65,6 +65,11 @@ input, button, select {
 	-moz-appearance: none;
 	appearance: none;}
 
+input[type="checkbox"]{
+	-webkit-appearance: checkbox;
+	-moz-appearance: checkbox;
+	appearance: checkbox;}
+
 button:focus, a:focus {
 	outline:0;}
 
