@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19142",
 "files": {
+	"\/acerca.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/acerca.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/blog.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -64,6 +73,72 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/bg-acerca1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.41032e+06,
+		"inputAbbreviatedPath": "\/img\/bg-acerca1.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-acerca1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-acerca1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.88451e+06,
+		"inputAbbreviatedPath": "\/img\/bg-acerca1.png",
+		"outputAbbreviatedPath": "\/img\/bg-acerca1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-acerca2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75432,
+		"inputAbbreviatedPath": "\/img\/bg-acerca2.png",
+		"outputAbbreviatedPath": "\/img\/bg-acerca2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-acerca3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56882,
+		"inputAbbreviatedPath": "\/img\/bg-acerca3.png",
+		"outputAbbreviatedPath": "\/img\/bg-acerca3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-acerca4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71154,
+		"inputAbbreviatedPath": "\/img\/bg-acerca4.png",
+		"outputAbbreviatedPath": "\/img\/bg-acerca4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-acerca5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79033,
+		"inputAbbreviatedPath": "\/img\/bg-acerca5.png",
+		"outputAbbreviatedPath": "\/img\/bg-acerca5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/bg-espiral-white.png": {
 		"fileType": 32768,
@@ -138,6 +213,17 @@
 		"initialSize": 3437,
 		"inputAbbreviatedPath": "\/img\/crediclub-logotipo-white.png",
 		"outputAbbreviatedPath": "\/img\/crediclub-logotipo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/group-of-people-near-wall-2422290.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.18987e+06,
+		"inputAbbreviatedPath": "\/img\/group-of-people-near-wall-2422290.jpg",
+		"outputAbbreviatedPath": "\/img\/group-of-people-near-wall-2422290.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -219,6 +305,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-acerca1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9912,
+		"inputAbbreviatedPath": "\/img\/logo-acerca1.png",
+		"outputAbbreviatedPath": "\/img\/logo-acerca1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-acerca2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5336,
+		"inputAbbreviatedPath": "\/img\/logo-acerca2.png",
+		"outputAbbreviatedPath": "\/img\/logo-acerca2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-acerca3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9505,
+		"inputAbbreviatedPath": "\/img\/logo-acerca3.png",
+		"outputAbbreviatedPath": "\/img\/logo-acerca3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/inc\/modal-abrir-cuenta.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -264,17 +383,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/min\/scripts-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/scripts-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/scripts-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/scripts.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -288,8 +396,8 @@
 		},
 	"\/js\/slick.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/slick.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/slick.min-min.js",
 		"outputPathIsOutsideProject": 0,

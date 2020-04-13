@@ -140,3 +140,55 @@
 	border-top: 2px solid $c-white
 	@media (max-width: $phone_b)
 		border-top: none
+
+// MASKS - GRADIENTS
+.bg-espiral
+	background-image: url('../img/bg-espiral-faded.svg')
+	background-repeat: no-repeat
+	background-size: auto
+	background-position: top -370px center
+
+.bg-espiral-verde
+	background-image: url('../img/bg-inversion3.svg')
+	background-repeat: no-repeat
+	background-size: cover
+	width: 100%
+	height: 85%
+	top: 15%
+	position: absolute
+	background-position: left center
+	@media (max-width: $tablet_b)
+		height: 100%
+		top: 0%
+
+.bg-espiral-azul
+	background-image: url('../img/bg-espiral-blue.svg')
+	opacity: 0.1
+	background-repeat: no-repeat
+	background-size: cover
+	width: 100%
+	height: 100%
+	top: 0%
+	position: absolute
+	background-position: left center
+	@media (max-width: $tablet_b)
+		height: 100%
+		top: 0%
+
+.bg-gradient-azul
+	background: linear-gradient(0deg, $c-dark-blue 5%, rgba(0,0,0,0) 85%)
+	width: 100%
+	pointer-events: none
+	height: 100%
+	top: 0%
+	left: 0
+	position: absolute
+
+.bg-gradient-light-blue
+	background: linear-gradient(0deg, $c-light-blue 10%, $c-white 70%)
+
+
+.bg-app
+	background: linear-gradient(0deg, #282828 85%, #E6ECFF 85%)
+	@media (max-width: $tablet_b)
+		background: #282828

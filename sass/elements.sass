@@ -222,6 +222,7 @@ header
 .has-white-arrows
 	.slick-arrow
 		@include appearance(none)
+		cursor: pointer
 		background: transparent
 		color: transparent
 		border: none
@@ -255,6 +256,55 @@ header
 			right: 0
 			left: inherit
 
+.has-blue-arrows
+	margin-bottom: 0!important
+	.slick-list
+		overflow: visible
+	.slick-dots
+		display: none!important
+	.slick-arrow
+		cursor: pointer
+		@include appearance(none)
+		background: transparent
+		color: transparent
+		border: none
+		position: absolute
+		bottom: 0px
+		height: 20px
+		width: 40px
+		z-index: 5
+	.slick-prev
+		left: 44%
+		&:after
+			content: url('../img/slider-arrow-left-blue.svg')
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+	.slick-next
+		left: 55%
+		&:after
+			content: url('../img/slider-arrow-right-blue.svg')
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+	@media (max-width: $phone_b)
+		.slick-arrow
+			display: none!important
+		.slick-dots
+			display: block!important
+
+.custom_paging
+	font-family: 'NTDapper-Regular'
+	font-size: 16px
+	color: $c-dark-blue
+	position: absolute
+	left: 50%
+	bottom: 0px
+	position: absolute
+	@media (max-width: $phone_b)
+		display: none!important
 
 .slider-img
 	width: 100%
@@ -329,6 +379,27 @@ header
 	+bg-img
 	padding-bottom: 60%
 	width: 100%
+
+.vh-80
+	height: 80vh
+
+.hero-img-800
+	+bg-img
+	height: 800px
+	width: 100%
+	.has-txt
+		width: 80%
+	@media (max-width: 1360px)
+		.has-txt
+			width: 100%
+	@media (max-width: $phone_b)
+		top: -1px
+		padding-top: 50px
+		padding-bottom: 50px
+		height: auto
+		min-height: 230px
+		.has-txt
+			width: 100%
 
 .hero-img
 	+bg-img
@@ -618,6 +689,9 @@ section.bg-orange
 .border-14px
 	+border-radius(14px)
 
+.border-15px
+	+border-radius(15px)
+
 .has-motion
 	@include transition-duration(0.2s)
 	&:hover
@@ -752,3 +826,113 @@ svg
 	width: 104%
 	position: relative
 	left: -2%
+
+// ACERCA
+.timeline
+	position: relative
+	&:after
+		content: ''
+		height: 100%
+		width: 2px
+		background: transparent
+		position: absolute
+		left: 50%
+		top: 162.9px
+	.left, .right
+		position: relative
+		width: 100%
+		> div
+			z-index: 1
+	.has-cir
+		+border-radius(100%)
+		background-size: auto
+		position: absolute
+		height: 50px
+		width: 50px
+		top: -25px
+		background-color: $c-blue
+		z-index: 2
+	.right:after,
+	.left:after,
+		content: ''
+		width: 2px
+		height: 100%
+		background: $c-blue
+		position: absolute
+		left: 50%
+		top: 0%
+	.left:nth-child(1):after
+		top: 50%
+	.right:last-child:after
+		top: -50%
+	// CIRCLE OF HORIZONTAL LINE
+	.left > div:before,
+	.right > div:before
+		content: ''
+		background: $c-blue
+		+border-radius(15px)
+		position: absolute
+	.left > div:before
+		right: -6px
+		top: 45%
+		height: 15px
+		width: 15px
+	.right > div:before
+		left: -6px
+		top: 45%
+		height: 15px
+		width: 15px
+	// HORIZONTAL LINE
+	.left > div:after,
+	.right > div:after
+		content: ''
+		background: $c-blue
+		position: absolute
+		height: 2px
+		width: 19%
+		z-index: 0
+	.left > div:after
+		right: -20.3%
+		top: 50%
+	.right > div:after
+		left: -20%
+		top: 50%
+	@media (max-width: $tablet_b)
+		&:after
+			background: $c-blue
+			left: 49.2%
+			top: 0px
+			height: 90%
+		.has-cir
+			height: 45px
+			width: 45px
+			top: -25px
+		.left:after,
+		.right:after
+			content: none
+			background: transparent
+		// CIRCLE OF HORIZONTAL LINE
+		.left > div:before,
+		.right > div:before
+			content: none
+		.right:last-child > div:before
+			content: none
+		// HORIZONTAL LINE
+		.left > div:after,
+		.right > div:after
+			content: none
+	@media (max-width: $phone_b)
+		&:after
+			left: 48.9%
+			top: 0px
+		.has-cir
+			+border-radius(100%)
+			background-size: 35%
+			height: 35px
+			width: 35px
+			top: -20px
+	@media (max-width: 550px)
+		&:after
+			height: 96%
+			left: 48%
+			top: 0px

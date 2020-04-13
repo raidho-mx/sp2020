@@ -95,6 +95,9 @@ img
 .txt14
 	font-size: 14px
 	line-height: 20px
+	@media (max-width: $tablet_b)
+		font-size: 12px
+		line-height: 14px
 
 .txt16
 	font-size: 16px
@@ -162,6 +165,16 @@ img
 		font-size: 24px
 		line-height: 29px
 
+.txt54
+	font-size: 54px
+	line-height: 69px
+	@media (max-width: $med_b)
+		font-size: 36px
+		line-height: 43px
+	@media (max-width: $tablet_b)
+		font-size: 24px
+		line-height: 29px
+
 .txt72
 	font-size: 72px
 	line-height: 72px
@@ -178,45 +191,6 @@ img
 	background-repeat: no-repeat
 	background-size: cover
 	background-position: center
-
-.bg-espiral
-	background-image: url('../img/bg-espiral-faded.svg')
-	background-repeat: no-repeat
-	background-size: auto
-	background-position: top -370px center
-
-.bg-espiral-verde
-	background-image: url('../img/bg-inversion3.svg')
-	background-repeat: no-repeat
-	background-size: cover
-	width: 100%
-	height: 85%
-	top: 15%
-	position: absolute
-	background-position: left center
-	@media (max-width: $tablet_b)
-		height: 100%
-		top: 0%
-
-.bg-espiral-azul
-	background-image: url('../img/bg-espiral-blue.svg')
-	opacity: 0.1
-	background-repeat: no-repeat
-	background-size: cover
-	width: 100%
-	height: 100%
-	top: 0%
-	position: absolute
-	background-position: left center
-	@media (max-width: $tablet_b)
-		height: 100%
-		top: 0%
-
-
-.bg-app
-	background: linear-gradient(0deg, #282828 85%, #E6ECFF 85%)
-	@media (max-width: $tablet_b)
-		background: #282828
 
 .vh100
 	height: 100vh
@@ -342,6 +316,9 @@ img
 .overflow-x-scroll
 	overflow-x: scroll
 
+.overflow-auto
+	overflow: auto
+
 // INPUTS,
 // BUTTONS
 
@@ -389,6 +366,14 @@ img
 	border: none
 	&:hover
 		color: $c-blue
+
+.btn-launch
+	background-image: url('../img/icon-open.svg')
+	padding-right: 50px
+	background-repeat: no-repeat
+	background-position: 83% center
+	min-width: 176px
+
 
 input[type="text"],
 input[type="email"],

@@ -142,7 +142,7 @@
 					</div>
 					<h3 class="txt36 c-dark-gray mb-md-4 mb-3"><strong>Inversión</strong></h3>
 					<p class="txt24 c-dark-gray mb-md-4 mb-3">Invierte desde $1 peso o hasta $5 millones<br> con SUPER tasas de hasta el<br>11% anual.</p>
-					<a href="#" class="has-btn bg-blue c-white m-auto">Ver todos</a>
+					<a href="#" class="has-btn bg-blue c-white m-auto">Abre tu cuenta</a>
 				</div>
 			</div>
 			<div class="col-md-6 mb-md-0 mb-4">
@@ -152,7 +152,7 @@
 					</div>
 					<h3 class="txt36 c-dark-gray mb-md-4 mb-3"><strong>Crédito</strong></h3>
 					<p class="txt24 c-dark-gray mb-md-4 mb-3">Te prestamos hasta $200 mil pesos <br>para liquidar tus tarjetas de crédito </br>con tasas SUPER atractivas.</p>
-					<a href="#" class="has-btn bg-blue c-white m-auto">Ver todos</a>
+					<a href="#" class="has-btn bg-blue c-white m-auto">Llena tu solicitud</a>
 				</div>
 			</div>
 		</div>

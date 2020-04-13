@@ -170,24 +170,6 @@
 		adaptiveHeight: true
 	});
 
-// GALLERY SLIDER
-	$('.slider-img-txt').slick({
-		infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		dots: true,
-		arrows: false,
-		fade: true,
-		adaptiveHeight: true,
-		dotsClass: 'custom_paging',
-		customPaging: function (slider, i) {
-			//FYI just have a look at the object to find available information
-			//press f12 to access the console in most browsers
-			//you could also debug or look in the source
-			console.log(slider);
-			return  (i + 1) + '/' + slider.slideCount;
-		}
-	});
 
 // VIDEOS SLIDER
 	var $slider = $('.slider-video');
@@ -216,69 +198,87 @@
 
 		$slider.slick();
 	}
-	
-// LOGOS SLIDER
-	$('.slider-logos').slick({
-	infinite: true,
-	slidesToShow: 3,
-	slidesToScroll: 2,
-	dots: true,
-	arrows: false,
-	adaptiveHeight: true,
-	autoplay: false,
-	autoplaySpeed: 2000,
-	responsive: [
+
+// POSTS SLIDER
+	var $sliderPosts = $('.slider-posts');
+	if ($sliderPosts.length) {
+		var currentSlide;
+		var slidesCount;
+		var sliderCounter = document.createElement('div');
+		sliderCounter.classList.add('slider__counter');
+
+		var updateSliderCounter = function(slick, currentIndex) {
+			currentSlide = slick.slickCurrentSlide() + 1;
+			slidesCount = slick.slideCount;
+			$(sliderCounter).html(currentSlide + ' / <span class="c-light-gray">' + slidesCount + '</span>');
+		};
+
+		$sliderPosts.on('init', function(event, slick) {
+			$sliderPosts.append(sliderCounter);
+			updateSliderCounter(slick);
+			$(sliderCounter).html('1 / <span class="c-light-gray">1</span>');
+
+		});
+
+		$sliderPosts.on('afterChange', function(event, slick, currentSlide) {
+			updateSliderCounter(slick, currentSlide);
+		});
+
+		$sliderPosts.slick();
+	}
+
+// SLIDER POSTS
+	var $status = $('.custom_paging');
+	var $slickElement = $('.slider-post');
+
+	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+		if(!slick.$dots){
+			return;
+		}
+
+		var i = (currentSlide ? currentSlide : 0) + 1;
+		$status.html('<span class="c-blue">' + i + '</span> / ' + (slick.$dots[0].children.length));
+	});
+
+	$slickElement.slick({
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		autoplay: true,
+		dots: true,
+		responsive: [
+			{
+				breakpoint: 2560,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 1480,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			},
 			{
 				breakpoint: 600,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					infinite: true,
-					dots: true
+					dots: true,
+					arrows: false
 				}
 			},
-	]
+		]
 	});
 
-	$(function () {
-		$('[data-toggle="tooltip"]').tooltip();
-	});
-
-
-// SCROLL TOP
-	// $('a[href*="#"]')
-	//   // Remove links that don't actually link to anything
-	//   .not('[href="#"]')
-	//   .not('[href="#0"]')
-	//   .click(function(event) {
-	// 	// On-page links
-	// 	if (
-	// 	  location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname
-	// 	) {
-	// 	  // Figure out element to scroll to
-	// 	  var target = $(this.hash);
-	// 	  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-	// 	  // Does a scroll target exist?
-	// 	  if (target.length) {
-	// 		// Only prevent default if animation is actually gonna happen
-	// 		event.preventDefault();
-	// 		$('html, body').animate({
-	// 		  scrollTop: target.offset().top
-	// 		}, 1000, function() {
-	// 		  // Callback after animation
-	// 		  // Must change focus!
-	// 		  var $target = $(target);
-	// 		  $target.focus();
-	// 		  if ($target.is(":focus")) { // Checking if the target was focused
-	// 			return false;
-	// 		  } else {
-	// 			$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-	// 			$target.focus(); // Set focus again
-	// 		  }
-	// 		});
-	// 	  }
-	// 	}
-	//   });
 
 // IF GET PAGE, PAINT  BLUE MENU
 	var pathname = window.location.href;
