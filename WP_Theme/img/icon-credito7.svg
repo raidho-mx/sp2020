@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>check mark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check-mark-white" fill-rule="nonzero">
+            <path d="M0,20 C0,9 9,0 20,0 C31,0 40,9 40,20 C40,31 31,40 20,40 C9,40 0,31 0,20 Z" id="Shape" fill="#00E478" transform="translate(20.000000, 20.000000) scale(-1, 1) rotate(-180.000000) translate(-20.000000, -20.000000) "></path>
+            <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="#FFFFFF" points="14.5454544 26.388064 8.4363632 20.370144 6.4 22.376112 14.5454544 30.4 32 13.205968 29.9636368 11.2"></polygon>
+        </g>
+    </g>
+</svg>

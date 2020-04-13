@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="120px" viewBox="0 0 135 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <path d="M0,65 C0,34.75 24.75,10 55,10 C85.25,10 110,34.75 110,65 C110,95.25 85.25,120 55,120 C24.75,120 0,95.25 0,65 Z" id="Shape" fill="#0274FF" fill-rule="nonzero" transform="translate(55.000000, 65.000000) scale(-1, 1) rotate(-180.000000) translate(-55.000000, -65.000000) "></path>
+            <g id="Group-7" transform="translate(85.000000, 0.000000)">
+                <circle id="Oval" fill="#002C66" cx="25" cy="25" r="25"></circle>
+                <path d="M27.556,33 L27.556,17.04 L24.988,17.04 L24.988,17.976 C24.988,19.776 24.412,20.352 22.396,20.352 L21.1,20.352 L21.1,22.872 L24.604,22.872 L24.604,33 L27.556,33 Z" id="1" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+            <g id="laptop_chromebook-24px" transform="translate(19.000000, 40.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M65.5833333,44.1176471 L65.5833333,0 L6.41666667,0 L6.41666667,44.1176471 L0.5,44.1176471 L0.5,50 L71.5,50 L71.5,44.1176471 L65.5833333,44.1176471 Z M41.9166667,44.1176471 L30.0833333,44.1176471 L30.0833333,41.1764706 L41.9166667,41.1764706 L41.9166667,44.1176471 Z M59.6666667,35.2941176 L12.3333333,35.2941176 L12.3333333,5.88235294 L59.6666667,5.88235294 L59.6666667,35.2941176 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

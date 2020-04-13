@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>thumb_up_alt-24px copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="thumb_up_alt-24px-copy" fill-rule="nonzero">
+            <path d="M20,0 C8.96,0 0,8.96 0,20 C0,31.04 8.96,40 20,40 C31.04,40 40,31.04 40,20 C40,8.96 31.04,0 20,0 Z" id="Path" fill="#F3F3F3"></path>
+            <path d="M20,0 C8.94,0 0,8.94 0,20 C0,31.06 8.94,40 20,40 C31.06,40 40,31.06 40,20 C40,8.94 31.06,0 20,0 Z M28.6,28.6 C27.82,29.38 26.56,29.38 25.78,28.6 L20,22.82 L14.22,28.6 C13.44,29.38 12.18,29.38 11.4,28.6 C10.62,27.82 10.62,26.56 11.4,25.78 L17.18,20 L11.4,14.22 C10.62,13.44 10.62,12.18 11.4,11.4 C12.18,10.62 13.44,10.62 14.22,11.4 L20,17.18 L25.78,11.4 C26.56,10.62 27.82,10.62 28.6,11.4 C29.38,12.18 29.38,13.44 28.6,14.22 L22.82,20 L28.6,25.78 C29.36,26.54 29.36,27.82 28.6,28.6 Z" id="Shape" fill="#0274FF"></path>
+        </g>
+    </g>
+</svg>

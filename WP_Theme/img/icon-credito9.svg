@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="100px" viewBox="0 0 113 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <path d="M0,54 C0,28.7 20.7,8 46,8 C71.3,8 92,28.7 92,54 C92,79.3 71.3,100 46,100 C20.7,100 0,79.3 0,54 Z" id="Shape" fill="#0274FF" fill-rule="nonzero" transform="translate(46.000000, 54.000000) scale(-1, 1) rotate(-180.000000) translate(-46.000000, -54.000000) "></path>
+            <g id="Group-7" transform="translate(71.000000, 0.000000)">
+                <circle id="Oval" fill="#002C66" cx="21" cy="21" r="21"></circle>
+                <path d="M26.772,29 L26.772,26.624 L19.02,26.624 C19.788,23.648 26.7,22.928 26.7,17.744 C26.7,14.72 24.564,12.848 21.012,12.848 C17.292,12.848 15.036,14.96 15.036,18.392 L17.94,18.392 C17.94,16.352 18.996,15.248 20.916,15.248 C22.764,15.248 23.724,16.28 23.724,17.816 C23.724,22.16 15.588,21.32 15.588,29 L26.772,29 Z" id="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+            <g id="timelapse-24px" transform="translate(23.000000, 31.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M33.464,13.536 C30.7145,10.7865 27.119,9.4 23.5,9.4 L23.5,23.5 L13.536,33.464 C19.035,38.963 27.965,38.963 33.4875,33.464 C38.9865,27.965 38.9865,19.035 33.464,13.536 Z M23.5,0 C10.528,0 0,10.528 0,23.5 C0,36.472 10.528,47 23.5,47 C36.472,47 47,36.472 47,23.5 C47,10.528 36.472,0 23.5,0 Z M23.5,42.3 C13.113,42.3 4.7,33.887 4.7,23.5 C4.7,13.113 13.113,4.7 23.5,4.7 C33.887,4.7 42.3,13.113 42.3,23.5 C42.3,33.887 33.887,42.3 23.5,42.3 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
