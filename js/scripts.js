@@ -291,15 +291,15 @@
 
 	switch(pathname) {
 		case inversion :
-			$(".has-menu li:nth-child(1) a").addClass('c-blue');
+			$(".has-menu li:nth-child(1) > a").addClass('c-blue');
 			break;
 		case credito :
-			$(".has-menu li:nth-child(2) a").addClass('c-blue');
+			$(".has-menu li:nth-child(2) > a").addClass('c-blue');
 			break;
 		case conocenos :
-			$(".has-menu li:nth-child(3) a").addClass('c-blue');
+			$(".has-menu li:nth-child(3) > a").addClass('c-blue');
 			break;
 		case blog :
-			$(".has-menu li:nth-child(4) a").addClass('c-blue');
+			$(".has-menu li:nth-child(4) > a").addClass('c-blue');
 			break;
 	}
