@@ -1,2 +1,4 @@
 /sass*
 *config.codekit
+*/sass
+*/sass/.sass-cache
