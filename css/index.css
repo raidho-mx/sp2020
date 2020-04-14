@@ -1890,6 +1890,7 @@ svg {
     top: 162.9px; }
   .timeline .left, .timeline .right {
     position: relative;
+    margin-top: -35px;
     width: 100%; }
     .timeline .left > div, .timeline .right > div {
       z-index: 1; }
