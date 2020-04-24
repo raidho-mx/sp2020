@@ -941,6 +941,17 @@ input[type="submit"] {
 .max-w-760 {
   max-width: 760px; }
 
+.max-w-110 {
+  max-width: 110px; }
+
+img.max-w-110 {
+  max-width: 110px;
+  width: 100%; }
+
+img.max-w-80 {
+  max-width: 80px;
+  width: 100%; }
+
 .table td, .table th {
   border: none !important; }
 
@@ -1378,6 +1389,56 @@ header {
   .info-btn span {
     color: #000000; }
 
+.i-btn {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #002C66;
+  border-radius: 15px;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  line-height: 16.5px; }
+  .i-btn .has-txt {
+    background: #002C66;
+    color: #FFFFFF;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 43px;
+    left: -78px;
+    padding: 10px;
+    -webkit-transition: all ease 0.5;
+    -moz-transition: all ease 0.5;
+    -ms-transition: all ease 0.5;
+    -o-transition: all ease 0.5;
+    transition: all ease 0.5;
+    width: 170px; }
+    .i-btn .has-txt:after {
+      content: "";
+      content: url("../img/icon-dropdown-arrow-blue.svg");
+      height: 20px;
+      width: 29px;
+      position: absolute;
+      -webkit-transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      transition: all ease 0.3s;
+      top: -14px;
+      left: 72px; }
+  .i-btn:hover .has-txt {
+    opacity: 1;
+    -webkit-transition: all ease 0.5;
+    -moz-transition: all ease 0.5;
+    -ms-transition: all ease 0.5;
+    -o-transition: all ease 0.5;
+    transition: all ease 0.5; }
+  @media (max-width: 768px) {
+    .i-btn {
+      border: 1px solid #0074FF;
+      color: #0074FF; } }
+
 .img-thumb-50 {
   background-repeat: no-repeat;
   background-size: cover;
@@ -1542,7 +1603,7 @@ header {
 
 .has-bleed-txt {
   position: relative;
-  padding-left: 70px; }
+  padding-left: 60px; }
   .has-bleed-txt img {
     position: absolute;
     top: 6px;
@@ -1560,6 +1621,14 @@ header {
     position: absolute;
     top: 8px;
     left: 0px; }
+
+.has-bleed-txt-center {
+  position: relative; }
+  .has-bleed-txt-center img {
+    position: relative;
+    display: inline-block;
+    top: 8px;
+    margin-right: 20px; }
 
 .has-arrow-down.collapsed:after {
   content: url("../img/icon-arrow-up.svg");
@@ -1949,7 +2018,7 @@ svg {
   @media (max-width: 991px) {
     .timeline .left, .timeline .right {
       position: relative;
-      margin-top: -5px; }
+      margin-top: 0px; }
     .timeline:after {
       background: #0074FF;
       left: 49.2%;

@@ -40,7 +40,7 @@
 					<div class="overlaped-img">
 						<img src="img/icon-referidos3.svg" alt="icono inversión 6">
 					</div>
-					<p class="txt24">Asegura que invierta mínimo $20,000.</p>
+					<p class="txt24">Asegura que invierta mínimo $20,000 pesos.</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 bg-white-md pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay4">
@@ -48,7 +48,7 @@
 					<div class="overlaped-img">
 						<img src="img/icon-referidos4.svg" alt="icono inversión 6">
 					</div>
-					<p class="txt24">Ambos reciben $500 en dinero electrónico.</p>
+					<p class="txt24">Ambos reciben $500 pesos en dinero electrónico.</p>
 				</div>
 			</div>
 			<div class="col-12 p-lg-0 mt-5 bg-white p-4 mb-md-0 mb-5">
@@ -79,24 +79,24 @@
 				<p class="c-white txt48 is-black">¿Cómo refiero?</p>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center mb-xl-0 mb-4">
-				<img src="img/icon-referidos5.svg" alt="" class="m-auto pb-3">
+				<img src="img/icon-referidos5.svg" alt="" class="max-w-80 m-auto pb-3">
 				<p class="txt36 c-green is-black mb-3"><b>Ejecutivo</b></p>
-				<p>Refiere con tu Ejecutivo a tus amigos.</p>
+				<p class="txt24">Refiere con tu Ejecutivo a tus amigos.</p>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center mb-xl-0 mb-4">
-				<img src="img/icon-referidos6.svg" alt="" class="m-auto pb-3">
+				<img src="img/icon-referidos6.svg" alt="" class="max-w-80 m-auto pb-3">
 				<p class="txt36 c-green is-black mb-3"><b>Correo</b></p>
-				<p>Manda un correo a <a href="mailto:promuevenos@supertasas.com" class="c-white has-underline is-bold">promuevenos@supertasas.com</a> con la información de tu referido.</p>
+				<p class="txt24">Manda un correo a <a href="mailto:promuevenos@supertasas.com" class="c-white txt20 has-underline is-bold">promuevenos@supertasas.com</a> con la información de tu referido.</p>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center mb-xl-0 mb-4">
-				<img src="img/icon-referidos7.svg" alt="" class="m-auto pb-3">
+				<img src="img/icon-referidos7.svg" alt="" class="max-w-80 m-auto pb-3">
 				<p class="txt36 c-green is-black mb-3"><b>Deja tus datos</b></p>
-				<p>Llena el formulario de esta página.</p>
+				<p class="txt24">Llena el formulario de esta página.</p>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center mb-xl-0 mb-4">
-				<img src="img/icon-referidos8.svg" alt="" class="m-auto pb-3">
+				<img src="img/icon-referidos8.svg" alt="" class="max-w-80 m-auto pb-3">
 				<p class="txt36 c-green is-black mb-3"><b>App</b></p>
-				<p>Desde la App en la sección <b>Invita y Gana</b>.</p>
+				<p class="txt24">Desde la App en la sección <b>Invita y Gana</b>.</p>
 			</div>
 		</div>
 	</div>
@@ -142,7 +142,7 @@
 				<p class="c-white txt36 is-black">¿Por qué invertir en SuperTasas.com?</p>
 			</div>
 			<div class="col-md-3 col-sm-6 mb-xl-0 mb-4 c-white">
-				<p class="txt24 c-white mb-3">Tasa fija hasta el 11% anual.</p>
+				<p class="txt24 c-white mb-3">Tasa fija de hasta el 11% anual.</p>
 			</div>
 			<div class="col-md-3 col-sm-6 mb-xl-0 mb-4 c-white">
 				<p class="txt24 c-white mb-3">Sin comisión por apertura.</p>

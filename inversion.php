@@ -44,6 +44,7 @@
 			</div>
 			<div class="col-12 text-md-right text-center mt-md-0 mt-4 fade-in delay5">
 				<button class="c-blue border-0 txt14 has-underline bg-0" data-toggle="modal" data-target="#ModalGat" id="buttonGat"><b>Consulta GAT*</b></button>
+				<div class="i-btn d-inline-block"><b>i</b><div class="has-txt txt14 text-left">Metodología usada mes a mes para el cáulculo de la tasa de interés.</div></div>
 			</div>
 		</div>
 	</div>
@@ -71,7 +72,7 @@
 				</div>
 				<div class="form-group pb-md-3">
 					<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">3</span>Tu tasa es:</p>
-					<div class="has-green-input c-white text-right is-bold txt48">9.00%</div>
+					<div class="has-green-input c-white text-right is-bold txt24">9.00%</div>
 				</div>
 				<div class="w-100 d-md-block d-none">
 					<p class="txt14">Rendimiento correspondiente a un año.</br>Para cálculo de retención de impuestos, supone que esta</br> es la única inversión del cliente en nuestra institución.</p>
@@ -131,29 +132,34 @@
 <!-- BLOQUE "POR QUÉ INVERTIR EN SUPERTASAS" -->
 <section class="bg-dark-blue pt-100 pb-100">
 	<div class="container">
-		<div class="row">
-			<div class="col-12 pb-100">
+		<div class="row justify-content-center">
+			<div class="col-12 pb-100 text-center">
 				<h2 class="txt48 is-black c-white">¿Por qué invertir en <span class="c-green">SuperTasas.com?</span></h2>
 			</div>
-			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion1.svg" alt="">Tasas fijas</p>
-				<p class="has-bleed-txt txt24">Al invertir a plazo, mantenemos la misma tasa desde el primero hasta el último día.</p>
+			<div class="col-md-4 pb-md-5 pb-3 c-white text-center">
+				<img src="img/icon-inversion1.svg" class="max-w-80 m-auto pb-3" alt="">
+				<p class="c-green txt36 is-bold pb-3">Tasas fijas</p>
+				<p class="txt24">Al invertir a plazo, mantenemos la misma tasa desde el primero hasta el último día.</p>
 			</div>
-			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion4.svg" alt="">Sin comisiones</p>
-				<p class="has-bleed-txt txt24">Sin comisión por apertura, mensualidad, anualidad, retiro, mantenimiento, etc.</p>
+			<div class="col-md-4 pb-md-5 pb-3 c-white text-center">
+				<img src="img/icon-inversion4.svg" class="max-w-80 m-auto pb-3" alt="">
+				<p class="c-green txt36 is-bold pb-3">Sin comisiones</p>
+				<p class="txt24">Sin comisión por apertura, mensualidad, anualidad, retiro, mantenimiento, etc.</p>
 			</div>
-			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion2.svg" alt="">Mismas tasas para todos</p>
-				<p class="has-bleed-txt txt24">Pagamos la misma tasa sin importar el tamaño de tu inversión, si eres cliente nuevo o ya tienes tiempo con nosotros.</p>
+			<div class="col-md-4 pb-md-5 pb-3 c-white text-center">
+				<img src="img/icon-inversion3.svg" class="max-w-80 m-auto pb-3" alt="">
+				<p class="c-green txt36 is-bold pb-3">Inversión mínima</p>
+				<p class="txt24">Abre tu cuenta desde $1 peso.</p>
 			</div>
-			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion5.svg" alt="">Fácil de operar</p>
-				<p class="has-bleed-txt txt24">Realiza tus inversiones y retiros, consulta de saldos desde nuestra App.</p>
+			<div class="col-md-4 pb-md-5 pb-3 c-white text-center">
+				<img src="img/icon-inversion2.svg" class="max-w-80 m-auto pb-3" alt="">
+				<p class="c-green txt36 is-bold pb-3">Mismas tasas para todos</p>
+				<p class="txt24">Pagamos la misma tasa sin importar el tamaño de tu inversión, si eres cliente nuevo o ya tienes tiempo con nosotros.</p>
 			</div>
-			<div class="col-md-6 pb-md-5 pb-3 c-white">
-				<p class="has-bleed-txt txt36 is-black"><img src="img/icon-inversion3.svg" alt="">Inversión mínima</p>
-				<p class="has-bleed-txt txt24">Desde $1 peso hasta 5 millones de pesos.</p>
+			<div class="col-md-4 pb-md-5 pb-3 c-white text-center">
+				<img src="img/icon-inversion5.svg" class="max-w-80 m-auto pb-3" alt="">
+				<p class="c-green txt36 is-bold pb-3">Fácil de operar</p>
+				<p class="txt24">Realiza tus inversiones y retiros, consulta de saldos desde nuestra App.</p>
 			</div>
 		</div>
 	</div>
@@ -222,7 +228,7 @@
 			</div>
 			<div class="col-md-6 pl-md-5">
 				<h3 class="c-blue txt36 is-black mb-3">¡Refiere y gana!</h3>
-				<h3 class="c-dark-blue txt36 is-bold mb-3">Gana $500 mxn por cada amigo que invites a invertir</h3>
+				<h3 class="c-dark-blue txt36 is-bold mb-3">Gana $500 pesos por cada amigo que invites a invertir</h3>
 				<p class="pb-5">Invita a tus amigos a invertir $20,000 pesos o más en cualquiera de nuestras inversiones a plazo y ambos ganan $500 pesos en dinero electrónico.</p>
 				<a href="#" class="has-btn bg-blue mr-md-4">Conoce más</a>
 			</div>

@@ -363,6 +363,44 @@ header
 	span
 		color: $c-black
 
+.i-btn
+	cursor: pointer
+	width: 18px
+	height: 18px
+	border: 1px solid $c-dark-blue
+	+border-radius(15px)
+	font-size: 12px
+	text-align: center
+	position: relative
+	line-height: 16.5px
+	.has-txt
+		background: $c-dark-blue
+		color: $c-white
+		opacity: 0
+		pointer-events: none
+		position: absolute
+		top: 43px
+		left: -78px
+		padding: 10px
+		+transition(all ease 0.5)
+		width: 170px
+		&:after
+			content: ''
+			content: url('../img/icon-dropdown-arrow-blue.svg')
+			height: 20px
+			width: 29px
+			position: absolute
+			@include transition(all ease 0.3s)
+			top: -14px
+			left: 72px
+	&:hover
+		.has-txt
+			opacity: 1
+			+transition(all ease 0.5)
+	@media (max-width: $phone_b)
+		border: 1px solid $c-blue
+		color: $c-blue
+
 //THUMBNAIL IMAGES
 .img-thumb-50
 	+bg-img
@@ -510,7 +548,7 @@ section.bg-orange
 
 .has-bleed-txt
 	position: relative
-	padding-left: 70px
+	padding-left: 60px
 	img
 		position: absolute
 		top: 6px
@@ -527,6 +565,14 @@ section.bg-orange
 		position: absolute
 		top: 8px
 		left: 0px
+
+.has-bleed-txt-center
+	position: relative
+	img
+		position: relative
+		display: inline-block
+		top: 8px
+		margin-right: 20px
 
 .has-arrow-down.collapsed
 	&:after
@@ -901,7 +947,7 @@ svg
 	@media (max-width: $tablet_b)
 		.left, .right
 			position: relative
-			margin-top: -5px
+			margin-top: 0px
 		&:after
 			background: $c-blue
 			left: 49.2%

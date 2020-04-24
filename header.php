@@ -34,12 +34,12 @@
 						<div class="bg-blue pt-2 pb-2">
 							<a href="#" class="c-white">Calcula tus rendimientos</a>
 							<a href="#" class="c-white pl-5 pr-5">Tasas</a>
-							<a href="#" class="c-white">Programa de referidos</a>
+							<a href="programa-referidos.php" class="c-white">Programa de referidos</a>
 						</div>
 					</div>
 				</li>
 				<li><a href="credito.php" class="pl-3 pr-3 is-bold">Crédito</a></li>
-				<li><a href="conocenos.php" class="pl-3 pr-3 is-bold">Conócenos</a></li>
+				<li><a href="acerca.php" class="pl-3 pr-3 is-bold">Conócenos</a></li>
 				<li><a href="blog.php" class="pl-3 pr-3 is-bold">Blog</a></li>
 				<li><a href="tel:+8180009810" class="has-icon c-green pl-3 pr-3 is-bold">(81) 8000 9810</a></li>
 				<li><a href="#" class="has-btn has-sm-btn c-white bg-blue">Abre tu cuenta</a></li>
@@ -58,12 +58,12 @@
 				<div class="pt-3 pb-3 pl-4 pr-4">
 					<a href="inversion.php" class="c-white pb-3 d-block w-100 border-bottom">Calcula tus rendimientos</a>
 					<a href="#" class="c-white pb-3 pt-3 d-block w-100 border-bottom">Tasas</a>
-					<a href="#" class="c-white pt-3 d-block w-100">Programa de referidos</a>
+					<a href="programa-referidos.php" class="c-white pt-3 d-block w-100">Programa de referidos</a>
 				</div>
 			</div>
 			<a href="credito.php" class="c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">Crédito</a>
-			<a href="#" class="c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">Conócenos</a>
-			<a href="#" class="c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">Blog</a>
+			<a href="acerca.php" class="c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">Conócenos</a>
+			<a href="blog.php" class="c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">Blog</a>
 			<a href="#" class="has-icon c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">(81) 8000 9810</a>
 		</div>
 	</div>

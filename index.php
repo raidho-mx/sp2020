@@ -17,12 +17,12 @@
 			<div class="col-md-6 border-right-light-gray  pl-md-auto pl-4 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 bg-white text-md-left text-center">
 				<p class="is-black txt24 c-blue mb-3">Inversión</p>
 				<p class="is-bold txt24 c-dark-blue mb-3 mr-lg-5">Invierte desde $1 peso con tasas de hasta el 11% anual</p>
-				<a href="#" class="has-btn bg-blue">Abre tu cuenta</a>
+				<a href="#" class="has-btn bg-blue">Consulta GAT</a>
 			</div>
 			<div class="col-md-6 pl-md-5 pl-4 pt-md-0 pt-4 pb-md-0 pb-4 bg-white text-md-left text-center">
 				<p class="is-black txt24 c-blue mb-3">Crédito</p>
 				<p class="is-bold txt24 c-dark-blue mb-3 mr-lg-5">Te prestamos hasta $200,000 pesos para pagar tus tarjetas con tasas desde el 11.9%</p>
-				<a href="#" class="has-btn bg-blue">Llena tu solicitud</a>
+				<a href="#" class="has-btn bg-blue">Consulta CAT</a>
 			</div>
 		</div>
 	</div>
@@ -206,45 +206,15 @@
 				<p class="c-dark-blue txt24 is-bold mb-5">Visita nuestro blog y entérate de todas las novedades financieras</p>
 			</div>
 		</div>
-		<div class="row pb-4">
-			<div class="col-md-4 mb-md-0 mb-4">
-				<a href="#">
-					<div class="img-card-rectangle mb-2" style="background-image: url('img/img-home-1.png');"></div>
-				</a>
-				<a href="#" class="d-block is-bold c-blue txt18 pb-2">
-					SuperFinanzas
-				</a>
-				<a href="#">
-					<p class="is-bold c-dark-blue txt24">¿Qué son las FinTechs y cómo están revolucionando el sistema financiero?</p>
-				</a>
-			</div>
-			<div class="col-md-4 mb-md-0 mb-4">
-				<a href="#">
-					<div class="img-card-rectangle mb-2" style="background-image: url('img/img-home-1.png');"></div>
-				</a>
-				<a href="#" class="d-block is-bold c-blue txt18 pb-2">
-					SuperFinanzas
-				</a>
-				<a href="#">
-					<p class="is-bold c-dark-blue txt24">¿Qué son las FinTechs y cómo están revolucionando el sistema financiero?</p>
-				</a>
-			</div>
-			<div class="col-md-4 mb-md-0 mb-4">
-				<a href="#">
-					<div class="img-card-rectangle mb-2" style="background-image: url('img/img-home-1.png');"></div>
-				</a>
-				<a href="#" class="d-block is-bold c-blue txt18 pb-2">
-					SuperFinanzas
-				</a>
-				<a href="#">
-					<p class="is-bold c-dark-blue txt24">¿Qué son las FinTechs y cómo están revolucionando el sistema financiero?</p>
-				</a>
-			</div>
+		<div class="row pb-4" id="recentPostsContainer">
+
 		</div>
 		<div class="row justify-content-center pt-md-5">
 			<a href="#" class="has-btn bg-blue">Ver todas las entradas</a>
 		</div>
 	</div>
 </section>
+
+<script src="js/fetchPosts.js"></script>
 
 <?php include('footer.php'); ?>
