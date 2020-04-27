@@ -27,14 +27,14 @@
 					<img src="img/supertasas-logotipo.svg" alt="">
 				</a>
 			</div>
-			<div class="has-menu ml-auto d-lg-flex d-none flex-wrap align-items-center">
+			<div class="has-menu ml-auto d-lg-flex d-none align-items-center">
 				<li href="#" class="pl-3 pr-3 is-bold has-dropdown">
 					<a href="inversion.php" class="pl-3 pr-3 is-bold">Inversión</a>
 					<div class="drop-down w-100 position-absolute">
-						<div class="bg-blue pt-2 pb-2">
-							<a href="#" class="c-white">Calcula tus rendimientos</a>
-							<a href="#" class="c-white pl-5 pr-5">Tasas</a>
-							<a href="programa-referidos.php" class="c-white">Programa de referidos</a>
+						<div class="bg-green pt-2 pb-2">
+							<a href="#" class="c-dark-blue">Calcula tus rendimientos</a>
+							<a href="#" class="c-dark-blue pl-5 pr-5">Tasas</a>
+							<a href="programa-referidos.php" class="c-dark-blue">Programa de referidos</a>
 						</div>
 					</div>
 				</li>

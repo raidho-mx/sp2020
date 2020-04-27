@@ -37,11 +37,12 @@ header
 	.has-menu
 		li
 			list-style: none
+			white-space: nowrap
 	.has-dropdown
 		> a
 			position: relative
 		> a:after
-			content: url('../img/icon-dropdown-arrow.svg')
+			content: url('../img/icon-dropdown-arrow-green.svg')
 			height: 20px
 			width: 29px
 			opacity: 0
@@ -60,14 +61,14 @@ header
 				text-decoration: underline
 	.has-dropdown:hover
 		> a:after
-			content: url('../img/icon-dropdown-arrow.svg')
+			content: url('../img/icon-dropdown-arrow-green.svg')
 			opacity: 1
 			top: 37px
 			@include transition(all ease 0.3s)
 		.drop-down
 			visibility: visible
 			opacity: 1
-			padding-top: 33px
+			padding-top: 32px
 			@include transition(all ease 0.3s)
 
 .has-logo
@@ -161,6 +162,7 @@ header
 	pointer-events: none
 	top: 0
 	//left: 10px
+	opacity: 0
 	position: absolute
 	height: 100%
 	width: 100%
@@ -658,6 +660,8 @@ section.bg-orange
 	position: relative
 	top: 120px
 	z-index: 1
+	@media (max-width: $med_b)
+		top: 90px
 	@media (max-width: $tablet_b)
 		top: 110px
 	@media (max-width: $phone_b)
@@ -755,7 +759,7 @@ svg
 #home-svg.show
 	.path
 		stroke-dasharray: 1500
-		stroke-dashoffset: 1500
+		stroke-dashoffset: -1500
 		animation: dash 1.8s ease-out forwards
 	.ellipse4
 		animation: show 0.4s ease-out forwards
@@ -900,7 +904,7 @@ svg
 		background-color: $c-blue
 		z-index: 2
 	.right:after,
-	.left:after,
+	.left:after
 		content: ''
 		width: 2px
 		height: 100%
