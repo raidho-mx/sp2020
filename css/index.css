@@ -891,6 +891,15 @@ input[type=submit]:focus, input[type=submit]:hover {
   }
 }
 
+.bg-transparent-sm-white {
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .bg-transparent-sm-white {
+    background-color: #FFFFFF;
+  }
+}
+
 .bg-blue {
   background-color: #0074FF;
 }

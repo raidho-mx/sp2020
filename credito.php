@@ -17,15 +17,15 @@
 		</div>
 		<!-- NUMERALIA -->
 		<div class="overlaped-box row pl-md-5 pr-md-5 pt-md-5 pb-md-4 pr-0 pt-3 pb-0" id="numbers3">
-			<div class="col-md-3 border-right-light-gray bg-white pl-0 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay1">
+			<div class="col-md-3 border-right-light-gray bg-transparent-sm-white pl-0 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay1">
 				<p class="is-black txt48 c-blue mb-3">+<span class="numeros count" data-count="133000"></span></p>
 				<p class="txt24 is-bold c-dark-blue">Clientes acreditados</p>
 			</div>
-			<div class="col-md-5 border-right-light-gray bg-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay2">
+			<div class="col-md-5 border-right-light-gray bg-transparent-sm-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay2">
 				<p class="is-black txt48 c-blue mb-3"><span class="numeros count" data-count="9"></span>.<span class="numeros count" data-count="97"></span>%</p>
 				<p class="txt24 is-bold c-dark-blue pb-3">Índice de Desempeño de Atención a Usuarios de CONDUSEF periodo de enero a julio 2019.</p>
 			</div>
-			<div class="col-md-4 bg-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay3">
+			<div class="col-md-4 bg-transparent-sm-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay3">
 				<p class="is-black txt48 c-blue mb-3">$<span class="numeros count" data-count="10000"></span> M</p>
 				<p class="txt24 is-bold c-dark-blue">De pesos prestados</p>
 			</div>
