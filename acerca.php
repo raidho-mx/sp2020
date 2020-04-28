@@ -30,7 +30,7 @@
 </section>
 
 <!-- TRAYECTORIA -->
-<section class="bg-gradient-light-blue pt-100 pb-100">
+<section class="bg-light-blue pt-100 pb-100">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 text-center pb-100">
