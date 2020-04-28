@@ -1375,7 +1375,7 @@ header .has-dropdown .drop-down a:hover {
 header .has-dropdown:hover > a:after {
   content: url("../img/icon-dropdown-arrow-green.svg");
   opacity: 1;
-  top: 37px;
+  top: 39px;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   -ms-transition: all ease 0.3s;
