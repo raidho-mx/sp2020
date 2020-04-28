@@ -30,7 +30,7 @@
 				<p class="is-black txt48 c-green mb-3"><span class="numeros count">10</span>.<span class="numeros count">50</span>%</p>
 				<p class="txt24 is-bold c-dark-blue">(Con intereses cada 28 días)</p>
 			</div>
-			<div class="col-md-2dot4 border-right-light-gray pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 bg-white text-md-left text-center fade-in delay3">
+			<div class="col-md-2dot4 border-right-light-gray pl-lg-4 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 bg-white text-md-left text-center fade-in delay3">
 				<p class="is-black txt48 c-green mb-3"><span class="numeros count">11</span>.00%</p>
 				<p class="txt24 is-bold c-dark-blue">Plazo de 182 días</p>
 			</div>
@@ -61,17 +61,17 @@
 			<!-- PRIMER COLUMNA -->
 			<div class="col-md-6 pr-lg-5 pb-lg-0">
 				<div class="form-group">
-					<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">1</span>¿Cuánto deseas invertir?</p>
+					<p class="is-bold c-dark-blue mb-3">1. ¿Cuánto deseas invertir?</p>
 					<input class="form-control txt24 has-mxn-symbol text-right c-black" type="number" name="" value="">
 				</div>
 				<div class="form-group">
-					<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">2</span>¿A qué plazo?</p>
-					<select dir="rtl" class="form-control txt24 text-right c-black" name="">
+					<p class="is-bold c-dark-blue mb-3">2. ¿A qué plazo?</p>
+					<select dir="rtl" class="form-control txt24 text-right c-dark-blue" name="">
 						<option value="a-la-vista">A la vista</option>
 					</select>
 				</div>
 				<div class="form-group pb-md-3">
-					<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">3</span>Tu tasa es:</p>
+					<p class="is-bold c-dark-blue mb-3">3. Tu tasa es:</p>
 					<div class="has-green-input c-white text-right is-bold txt24">9.00%</div>
 				</div>
 				<div class="w-100 d-md-block d-none">
@@ -80,7 +80,7 @@
 			</div>
 			<!-- SEGUNDA COLUMNA -->
 			<div class="col-md-6 pl-lg-5">
-				<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">4</span>Tu ganancia es:</p>
+				<p class="is-bold c-dark-blue mb-3">4. Tu ganancia es:</p>
 				<div class="bg-white has-sm-shadow p-4 is-bold mb-lg-5 mb-4">
 					<div class="border-bottom-dark-blue pb-lg-4 pb-2 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
 						<div class="col-lg-6">
@@ -95,7 +95,7 @@
 							<p class="c-dark-blue">Impuestos (1.45% anual)</p>
 						</div>
 						<div class="col-lg-6 text-lg-right mt-lg-0 mt-3">
-							<p class="c-black txt24">$0</p>
+							<p class="c-dark-blue txt24">$0</p>
 						</div>
 					</div>
 					<div class="pb-lg-4 pb-2 pt-4 w-100 d-flex flex-wrap no-gutters align-items-center">
@@ -103,7 +103,7 @@
 							<p class="c-dark-blue">Cantidad disponible al final de un año.</p>
 						</div>
 						<div class="col-lg-6 text-lg-right mt-lg-0 mt-3">
-							<p class="c-black txt24">$0</p>
+							<p class="c-dark-blue txt24">$0</p>
 						</div>
 					</div>
 				</div>
@@ -187,10 +187,14 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion7.svg" alt="icono inversión 7">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Envía los documentos requeridos a tu ejecutivo asignado</p>
-						<p class="has-bleed-txt-sm txt18">• INE o pasaporte vigentes</p>
-						<p class="has-bleed-txt-sm txt18">• Comprobante de domicilio</p>
-						<p class="has-bleed-txt-sm txt18">• Estado de cuenta bancario, aquí recibirás el dinero que retires de tu cuenta SuperTasas.com</p>
+					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4 d-inline"><img src="img/icon-arrow-check.svg" alt="">Envía los documentos requeridos a tu ejecutivo asignado</p>
+					<div class="i-btn d-inline-block"><b>i</b>
+						<div class="has-txt txt14 text-left w-200 z-index-2">
+							<p class="txt14">• INE o pasaporte vigentes</p>
+							<p class="txt14">• Comprobante de domicilio</p>
+							<p class="txt14">• Estado de cuenta bancario, aquí recibirás el dinero que retires de tu cuenta SuperTasas.com</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
@@ -207,9 +211,13 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion9.svg" alt="icono inversión 9">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Realiza tu primer depósito</p>
-					<p class="has-bleed-txt-sm txt18">• Vía SPEI</p>
-					<p class="has-bleed-txt-sm txt18">• En Sucursales Bancarias</p>
+					<p class="has-bleed-txt-sm d-inline c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Realiza tu primer depósito</p>
+					<div class="i-btn d-inline-block"><b>i</b>
+						<div class="has-txt txt14 text-left">
+							<p class="txt14">• Vía SPEI</p>
+							<p class="txt14">• En Sucursales Bancarias</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
