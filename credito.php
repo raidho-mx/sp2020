@@ -87,7 +87,7 @@
 							<div class="col-sm-3">
 							</div>
 							<div class="col-sm-5 text-center pt-4 pb-4 pb-2">
-								<p class="c-dark-gray is-black p-2"><u>Tu banco</u></p>
+								<p class="c-dark-blue is-black p-2"><u>Tu banco</u></p>
 							</div>
 							<div class="col-sm-4 pt-4 pb-4 pb-2 bg-light-blue">
 								<p class="m-auto p-2"><img src="img/supertasas-logotipo.svg" alt="SuperTasas Logotipo" style="max-width: 123px;" class="m-auto"></p>
@@ -101,7 +101,7 @@
 							</div>
 							<div class="col-sm-5">
 								<div class="h-100 text-center pt-4 pb-4">
-									<p class="c-black txt24 word-break p-2">0%</p>
+									<p class="c-dark-blue txt24 word-break p-2">0%</p>
 								</div>
 							</div>
 							<div class="col-sm-4 bg-light-blue">
@@ -118,7 +118,7 @@
 							</div>
 							<div class="col-sm-5">
 								<div class="text-center pt-4 pb-4">
-									<p class="c-black txt24 word-break p-2">$0</p>
+									<p class="c-dark-blue txt24 word-break p-2">$0</p>
 								</div>
 							</div>
 							<div class="col-sm-4 bg-light-blue">

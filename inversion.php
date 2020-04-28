@@ -66,7 +66,7 @@
 				</div>
 				<div class="form-group">
 					<p class="is-bold c-dark-blue mb-3">2. ¿A qué plazo?</p>
-					<select dir="rtl" class="form-control txt24 text-right c-dark-blue" name="">
+					<select dir="rtl" class="form-control txt24 text-right c-black" name="">
 						<option value="a-la-vista">A la vista</option>
 					</select>
 				</div>
