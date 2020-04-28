@@ -18,15 +18,15 @@
 		<!-- NUMERALIA -->
 		<div class="overlaped-box row pl-md-5 pr-md-5 pt-md-5 pb-md-4 pr-0 pt-3 pb-0" id="numbers3">
 			<div class="col-md-3 border-right-light-gray bg-white pl-0 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay1">
-				<p class="is-black txt48 c-blue mb-3">+<span class="numeros count" data-count="13300"></span></p>
-				<p class="txt24 is-bold c-dark-blue">Acreditados</p>
+				<p class="is-black txt48 c-blue mb-3">+<span class="numeros count" data-count="133000"></span></p>
+				<p class="txt24 is-bold c-dark-blue">Clientes acreditados</p>
 			</div>
 			<div class="col-md-5 border-right-light-gray bg-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay2">
 				<p class="is-black txt48 c-blue mb-3"><span class="numeros count" data-count="9"></span>.<span class="numeros count" data-count="97"></span>%</p>
 				<p class="txt24 is-bold c-dark-blue pb-3">Índice de Desempeño de Atención a Usuarios de CONDUSEF periodo de enero a julio 2019.</p>
 			</div>
 			<div class="col-md-4 bg-white pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 text-md-left text-center fade-in delay3">
-				<p class="is-black txt48 c-blue mb-3">+<span class="numeros count" data-count="10000"></span> M</p>
+				<p class="is-black txt48 c-blue mb-3">$<span class="numeros count" data-count="10000"></span> M</p>
 				<p class="txt24 is-bold c-dark-blue">De pesos prestados</p>
 			</div>
 		</div>
@@ -39,35 +39,35 @@
 	<div class="container">
 		<div class="row bg-gray pl-lg-5 pr-lg-5 pt-lg-5 pb-lg-5 p-sm-3 pt-3 p-0 ml-md-5 mr-md-5">
 			<div class="col-12 mb-lg-5 mb-4 pl-lg-0 pl-4">
-				<p class="txt36 c-dark-blue"><strong class="is-black">Calcula tu ahorro con SuperTasas.com:</strong></p>
+				<p class="txt36 c-dark-blue"><strong class="is-black">Calcula tu ahorro:</strong></p>
 			</div>
 			<!-- PRIMER COLUMNA -->
 			<div class="col-lg-6 pr-lg-5 pb-lg-0 pl-lg-0 pl-4 pr-4">
 				<div class="form-row">
 					<div class="col-12 mb-lg-3 mb-4">
-						<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">1</span>¿Cuánto debes?</p>
+						<p class="is-bold c-dark-blue mb-3">1. ¿Cuánto debes?</p>
 						<input class="form-control txt24 has-mxn-symbol text-right c-black" type="number" name="" value="">
 					</div>
 					<div class="col-lg-6 mb-lg-3 mb-4">
-						<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">2</span>¿A qué banco?</p>
+						<p class="is-bold c-dark-blue mb-3">2. ¿A qué banco?</p>
 						<select class="form-control txt24 text-right c-black" name="">
 							<option value="a-la-vista">Elige tu banco</option>
 						</select>
 					</div>
 					<div class="col-lg-6 mb-lg-3 mb-4">
-						<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">3</span>¿Qué tarjeta?</p>
+						<p class="is-bold c-dark-blue mb-3">3. ¿Qué tarjeta?</p>
 						<select class="form-control txt24 c-black" name="">
 							<option value="a-la-vista">Elige tu tarjeta</option>
 						</select>
 					</div>
 					<div class="col-12 mb-lg-3 mb-4">
-						<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">4</span>¿A qué plazo deseas pagar?</p>
+						<p class="is-bold c-dark-blue mb-3">4. ¿A qué plazo deseas pagar?</p>
 						<select class="form-control txt24 c-black" name="">
 							<option value="a-la-vista">12 Meses</option>
 						</select>
 					</div>
 					<div class="col-12 mb-lg-5 mb-lg-3 mb-4">
-						<p class="is-bold c-dark-blue mb-3"><span class="cir-30x30 bg-dark-blue c-white mr-2">5</span>¿Cómo es tu historial crediticio?</p>
+						<p class="is-bold c-dark-blue mb-3">5. ¿Cómo es tu historial crediticio?</p>
 						<select class="form-control txt24 c-black" name="">
 							<option value="a-la-vista">Muy Bueno</option>
 						</select>
@@ -79,7 +79,7 @@
 			</div>
 			<!-- SEGUNDA COLUMNA -->
 			<div class="col-lg-6 p-sm-auto p-0">
-				<p class="is-bold c-dark-blue mb-3 pl-lg-0 pl-4 pr-4"><span class="cir-30x30 bg-dark-blue c-white mr-2">6</span>Tu ganancia es:</p>
+				<p class="is-bold c-dark-blue mb-3 pl-lg-0 pl-4 pr-4">6. Tu ahorro:</p>
 				<div class="bg-white has-md-shadow is-bold mb-lg-0 mb-4 p-3">
 					<!-- BLOQUE "TU GANANCIA BREAK (DESKTOP)" -->
 					<div class="d-lg-block d-none mb-md-5 mb-4">
@@ -357,7 +357,7 @@
 <section class="bg-white pt-100 pb-100">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 pb-100 text-center">
+			<div class="col-12 pb-5 text-center">
 				<h2 class="txt36 is-black c-blue mb-4">Crédito SuperTasas.com</h2>
 				<p class="txt24 c-dark-blue"><b>Paga tus tarjetas de crédito ahorrando en intereses gracias a nuestras SUPER tasas</b></p>
 			</div>
@@ -511,7 +511,7 @@
 	<div class="container">
 		<div class="row justify-content-md-center">
 			<div class="col-12 pb-100 text-center">
-				<p class="c-dark-gray txt36 is-black">¿Cómo funciona?</p>
+				<p class="c-dark-gray txt36 is-black">Solicita tu crédito</p>
 			</div>
 			<div class="col-xl-2dot4 col-md-4 col-sm-6 text-center mb-xl-0 mb-4">
 				<img src="img/icon-credito8.svg" alt="" class="m-auto pb-3">
