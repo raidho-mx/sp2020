@@ -77,6 +77,10 @@ img {
   white-space: nowrap;
 }
 
+.word-break {
+  word-break: break-all;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -2338,6 +2342,21 @@ svg {
   max-height: 450px;
   overflow: inherit;
 }
+@media (max-width: 991px) {
+  #home-svg {
+    background-image: url("../img/svg-home.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    animation: moveTopShow 0.4s ease-out forwards;
+    opacity: 0;
+    top: 50px;
+    animation-delay: 0.9s;
+  }
+  #home-svg g {
+    display: none;
+  }
+}
 
 #home-svg.show .path {
   stroke-dasharray: 1500;
@@ -2383,6 +2402,13 @@ svg {
   animation: moveTop 0.5s ease-out forwards;
   opacity: 0;
   animation-delay: 1.3s;
+}
+@media (max-width: 991px) {
+  #home-svg.show .path, #home-svg.show .ellipse4, #home-svg.show .ellipse3,
+#home-svg.show .ellipse2, #home-svg.show .ellipse1, #home-svg.show .path-group-10,
+#home-svg.show .path-group-9, #home-svg.show .path-group-8, #home-svg.show .path-group-7 {
+    display: none;
+  }
 }
 
 @keyframes dash {

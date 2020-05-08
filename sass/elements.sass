@@ -757,6 +757,17 @@ svg
 #home-svg
 	max-height: 450px
 	overflow: inherit
+	@media (max-width: $tablet_b)
+		background-image: url('../img/svg-home.svg')
+		background-repeat: no-repeat
+		background-position: center
+		background-size: contain
+		animation: moveTopShow 0.4s ease-out forwards
+		opacity: 0
+		top: 50px
+		animation-delay: 0.9s
+		g
+			display: none
 
 #home-svg.show
 	.path
@@ -795,6 +806,11 @@ svg
 		animation: moveTop 0.5s ease-out forwards
 		opacity: 0
 		animation-delay: 1.3s
+	@media (max-width: $tablet_b)
+		.path, .ellipse4, .ellipse3,
+		.ellipse2, .ellipse1, .path-group-10,
+		.path-group-9, .path-group-8, .path-group-7
+			display: none
 
 
 @keyframes dash
