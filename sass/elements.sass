@@ -321,6 +321,14 @@ header
 .slider-img-txt
 	width: 100%
 
+.slider-post
+	@media (max-width: $tablet_b)
+		.slick-slide
+			> div
+				padding: 10px!important
+				padding-bottom: 20px!important
+				padding-top: 20px!important
+
 .cards-slider
 	.slick-list
 		overflow: inherit
@@ -662,6 +670,8 @@ section.bg-orange
 	position: relative
 	top: 120px
 	z-index: 1
+	> div
+		+border-radius(15px)
 	@media (max-width: $med_b)
 		top: 90px
 	@media (max-width: $tablet_b)

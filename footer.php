@@ -72,7 +72,7 @@
 						<div class="col-6 d-flex flex-column">
 							<p class="mb-2">Contacto:</p>
 							<p class="d-block mb-2"><b class="c-white">(81) 8000 9810</b></p>
-							<p><a href="mailto:hola@supertasas.com" class="c-white d-block mb-2 is-bold">hola@supertasas.com</a></p>
+							<p><a href="mailto:hola@supertasas.com" class="c-white d-block mb-2 is-bold word-break">hola@supertasas.com</a></p>
 						</div>
 						<div class="col-6 mt-4">
 							<p class="mb-2">Regulación:</p>

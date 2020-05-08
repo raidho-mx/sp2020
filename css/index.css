@@ -1718,6 +1718,14 @@ header .has-dropdown:hover .drop-down {
   width: 100%;
 }
 
+@media (max-width: 991px) {
+  .slider-post .slick-slide > div {
+    padding: 10px !important;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+  }
+}
+
 .cards-slider .slick-list {
   overflow: inherit;
 }
@@ -2205,6 +2213,9 @@ header .has-dropdown:hover .drop-down {
   position: relative;
   top: 120px;
   z-index: 1;
+}
+.overlaped-box > div {
+  border-radius: 15px;
 }
 @media (max-width: 1280px) {
   .overlaped-box {
