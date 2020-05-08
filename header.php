@@ -43,6 +43,7 @@
 				<li><a href="blog.php" class="pl-3 pr-3 is-bold">Blog</a></li>
 				<li><a href="tel:+8180009810" class="has-icon c-green pl-3 pr-3 is-bold">(81) 8000 9810</a></li>
 				<li><a href="#" class="has-btn has-sm-btn c-white bg-blue">Abre tu cuenta</a></li>
+				<li><a href="#" class="pl-3 pr-3 is-bold">Inicia sesión</a></li>
 			</div>
 		</nav>
 	</div>

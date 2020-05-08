@@ -1315,6 +1315,9 @@ header {
   top: 0;
   z-index: 4;
 }
+header .has-logo {
+  min-width: 140px;
+}
 header .has-logo img {
   max-width: 253px;
   width: 100%;
