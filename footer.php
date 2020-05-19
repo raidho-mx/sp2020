@@ -15,13 +15,12 @@
 				</div>
 				<div class="col-3">
 					<p class="mb-2">Regulación:</p>
-					<a href="#" class="c-white d-block mb-2"><b>Transparencia y Normatividad</b></a>
-					<a href="#" class="c-white d-block mb-2"><b>Política de  Privacidad</b></a>
-					<a href="#" class="c-white d-block mb-2"><b>Términos y  Condiciones</b></a>
+					<a href="normatividad.php" class="c-white d-block mb-2"><b>Transparencia y Normatividad</b></a>
+					<a href="politica-privacidad.php" class="c-white d-block mb-2"><b>Política de  Privacidad</b></a>
+					<a href="terminos-condiciones-servicios-electronicos.php" class="c-white d-block mb-2"><b>Términos y  Condiciones</b></a>
 					<a href="#" class="c-white d-block mb-2"><b>Información Financiera</b></a>
-					<a href="#" class="c-white d-block mb-2"><b>Unidad Especialzada</b></a>
-					<a href="#" class="c-white d-block mb-2"><b>Condusef</b></a>
-					<a href="#" class="c-white d-block mb-2"><b>Consulta los costos y las comisiones<br> de nuestros productos</b></a>
+					<a href="#" class="c-white d-block mb-2" data-toggle="modal" data-target="#ModalUnidadEspecializadaCondusef" id="buttonUnidadEspecializada"><b>Unidad Especialzada Condusef</b></a>
+					<a href="https://supertasas.com/201905-Costos-y-comisiones.pdf" target="_blank" class="c-white d-block mb-2"><b>Consulta los costos y las comisiones<br> de nuestros productos</b></a>
 				</div>
 				<div class="col-3 d-flex flex-column">
 					<p class="mb-2">Contacto:</p>
@@ -76,13 +75,12 @@
 						</div>
 						<div class="col-6 mt-4">
 							<p class="mb-2">Regulación:</p>
-							<a href="#" class="c-white d-block mb-2"><b>Transparencia y Normatividad</b></a>
-							<a href="#" class="c-white d-block mb-2"><b>Política de  Privacidad</b></a>
-							<a href="#" class="c-white d-block mb-2"><b>Términos y Condiciones</b></a>
+							<a href="normatividad.php" class="c-white d-block mb-2"><b>Transparencia y Normatividad</b></a>
+							<a href="politica-privacidad.php" class="c-white d-block mb-2"><b>Política de  Privacidad</b></a>
+							<a href="terminos-condiciones-servicios-electronicos.php" class="c-white d-block mb-2"><b>Términos y  Condiciones</b></a>
 							<a href="#" class="c-white d-block mb-2"><b>Información  Financiera</b></a>
-							<a href="#" class="c-white d-block mb-2"><b>Unidad Especialzada</b></a>
-							<a href="#" class="c-white d-block mb-2"><b>Condusef</b></a>
-							<a href="#" class="c-white d-block mb-2"><b>Consulta los costos y las comisiones de nuestros productos</b></a>
+							<a href="#" class="c-white d-block mb-2" data-toggle="modal" data-target="#ModalUnidadEspecializadaCondusef" id="buttonUnidadEspecializada" class="c-white d-block mb-2"><b>Unidad Especialzada Condusef</b></a>
+							<a href="https://supertasas.com/201905-Costos-y-comisiones.pdf" target="_blank" class="c-white d-block mb-2"><b>Consulta los costos y las comisiones de nuestros productos</b></a>
 						</div>
 					</div>
 				</div>
@@ -97,6 +95,9 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- Modal -->
+	<?php include('inc/modal-unidad-especializada-condusef.php'); ?>
 
 	<!-- SCRIPTS -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

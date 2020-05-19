@@ -108,3 +108,33 @@ img.max-w-80
 		-ms-flex: 0 0 20%
 		flex: 0 0 20%
 		max-width: 20%
+
+// EXTRA
+.has-table
+	max-width: 100%
+	width: 100%
+	td, th
+		padding: 8px
+		line-height: 1.42857143
+		vertical-align: top
+		border: 1px solid black
+
+.has-disc-list
+	padding-left: 22px
+	li
+		list-style-type: disc
+
+
+.collapsed-btn.collapsed > div
+	&:after
+		content: ''
+
+.collapsed-btn > div
+	position: relative
+	&:after
+		content: url('../img/icon-dropdown-arrow-blue.svg')
+		+transform(rotate(180deg))
+		position: absolute
+		left: 0
+		right: 0
+		bottom: -13px

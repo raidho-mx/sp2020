@@ -1285,6 +1285,43 @@ img.max-w-80 {
     max-width: 20%;
   }
 }
+.has-table {
+  max-width: 100%;
+  width: 100%;
+}
+.has-table td, .has-table th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border: 1px solid black;
+}
+
+.has-disc-list {
+  padding-left: 22px;
+}
+.has-disc-list li {
+  list-style-type: disc;
+}
+
+.collapsed-btn.collapsed > div:after {
+  content: "";
+}
+
+.collapsed-btn > div {
+  position: relative;
+}
+.collapsed-btn > div:after {
+  content: url("../img/icon-dropdown-arrow-blue.svg");
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -13px;
+}
+
 /*  COMPONENTS */
 /* ELEMENTS */
 section {
@@ -2488,6 +2525,11 @@ svg {
   opacity: 0;
   top: 50px;
   animation-delay: 0.9s;
+}
+
+.fade-in-static-x1 {
+  animation: show 0.4s ease-out forwards;
+  opacity: 0;
 }
 
 .fade-in-static {

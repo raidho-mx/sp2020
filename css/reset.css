@@ -91,3 +91,7 @@ a.c-white:hover {
 	text-decoration: none;
 	color: black;
 }
+
+a {
+	cursor: pointer;
+}
