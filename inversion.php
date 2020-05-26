@@ -40,11 +40,12 @@
 			</div>
 			<div class="col-md-2dot4 pl-lg-5 pl-3 pt-md-0 pt-4 pb-md-0 pb-4 bg-white text-md-left text-center fade-in delay5">
 				<p class="is-black txt48 c-green mb-3"><span class="numeros count">8</span>.<span class="numeros count">20</span>%</p>
-				<p class="txt24 is-bold c-dark-blue">A la vista</p>
+				<p class="txt24 is-bold c-dark-blue d-inline-block">A la vista</p><div class="i-btn i-btn-lg d-inline-block ml-2"><b>i</b><div class="has-txt txt14 text-left"> Metodología usada mes a mes para el cálculo de la tasa de interés aplicable a saldos a la vista:<br>
+				• El último día hábil del mes, se promedia la tasa de cetes 28 días con la información publicada en la página web de Banxico, los días miércoles del mes referido.<br>
+				• La cifra se redondea al 0.05 superior (por ejemplo, la tasa es de 7.61, se redondea al 0.05, resultando en 7.65).</div></div>
 			</div>
 			<div class="col-12 text-md-right text-center mt-md-0 mt-4 fade-in delay5">
 				<button class="c-blue border-0 txt14 has-underline bg-0" data-toggle="modal" data-target="#ModalGat" id="buttonGat"><b>Consulta GAT*</b></button>
-				<div class="i-btn d-inline-block"><b>i</b><div class="has-txt txt14 text-left">Metodología usada mes a mes para el cáulculo de la tasa de interés.</div></div>
 			</div>
 		</div>
 	</div>
@@ -66,7 +67,7 @@
 				</div>
 				<div class="form-group">
 					<p class="is-bold c-dark-blue mb-3">2. ¿A qué plazo?</p>
-					<select dir="rtl" class="form-control txt24 text-right c-black" name="">
+					<select dir="rtl" class="form-control txt24 text-right c-dark-blue has-dark-blue-select" name="">
 						<option value="a-la-vista">A la vista</option>
 					</select>
 				</div>
@@ -177,9 +178,13 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion6.svg" alt="icono inversión 6">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Llena el formulario en línea</p>
-					<p class="has-bleed-txt-sm txt18">• Desde tu celular</p>
-					<p class="has-bleed-txt-sm txt18">• En tu computadora</p>
+					<p class="has-bleed-txt-sm d-inline c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Llena el formulario en línea</p>
+					<div class="i-btn d-inline-block"><b>i</b>
+						<div class="has-txt txt14 text-left w-200 z-index-2">
+							<p class="txt14">• Desde tu celular</p>
+							<p class="txt14">• En tu computadora</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
@@ -187,7 +192,7 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion7.svg" alt="icono inversión 7">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4 d-inline"><img src="img/icon-arrow-check.svg" alt="">Envía los documentos requeridos a tu ejecutivo asignado</p>
+					<p class="has-bleed-txt-sm d-inline c-blue txt24 is-bold mb-3 mb-md-4 d-inline"><img src="img/icon-arrow-check.svg" alt="">Envía los documentos requeridos a tu ejecutivo asignado</p>
 					<div class="i-btn d-inline-block"><b>i</b>
 						<div class="has-txt txt14 text-left w-200 z-index-2">
 							<p class="txt14">• INE o pasaporte vigentes</p>
@@ -202,8 +207,12 @@
 					<div class="overlaped-img">
 						<img src="img/icon-inversion8.svg" alt="icono inversión 8">
 					</div>
-					<p class="has-bleed-txt-sm c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Firma tu contrato en tu domicilio o en la sucursa</p>
-					<p class="has-bleed-txt-sm txt18">• Agenda una cita en, tu decides el lugar</p>
+					<p class="has-bleed-txt-sm d-inline c-blue txt24 is-bold mb-3 mb-md-4"><img src="img/icon-arrow-check.svg" alt="">Firma tu contrato en tu domicilio o en la sucursa</p>
+					<div class="i-btn d-inline-block"><b>i</b>
+						<div class="has-txt txt14 text-left w-200 z-index-2">
+							<p class="txt14">• Agenda una cita en, tu decides el lugar</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
