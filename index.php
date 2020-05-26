@@ -17,12 +17,14 @@
 			<div class="col-md-6 border-right-light-gray  pl-md-auto pl-4 pr-md-auto pr-4 pt-md-0 pt-4 pb-md-0 pb-4 mb-md-0 mb-4 bg-white text-md-left text-center">
 				<p class="is-black txt24 c-blue mb-3">Inversión</p>
 				<p class="is-bold txt24 c-dark-blue mb-3 mr-lg-5">Invierte desde $1 peso con tasas de hasta el 11% anual</p>
-				<a href="#" class="has-btn bg-blue">Consulta GAT</a>
+				<a href="#" class="has-btn bg-blue c-white m-auto">Abre tu cuenta</a>
+				<button class="c-blue mt-4 d-block border-0 txt14 has-underline bg-0" data-toggle="modal" data-target="#ModalGat" id="buttonGat"><b>Consulta GAT*</b></button>
 			</div>
 			<div class="col-md-6 pl-md-5 pl-4 pt-md-0 pt-4 pb-md-0 pb-4 bg-white text-md-left text-center">
 				<p class="is-black txt24 c-blue mb-3">Crédito</p>
 				<p class="is-bold txt24 c-dark-blue mb-3 mr-lg-5">Te prestamos hasta $200,000 pesos para pagar tus tarjetas con tasas desde el 11.9%</p>
-				<a href="#" class="has-btn bg-blue">Consulta CAT</a>
+				<a href="#" class="has-btn bg-blue c-white m-auto">Llena tu solicitud</a>
+				<button class="c-blue mt-4 d-block border-0 txt14 has-underline bg-0" data-toggle="modal" data-target="#ModalCat" id="buttonCat"><b>Consulta CAT*</b></button>
 			</div>
 		</div>
 	</div>
@@ -216,5 +218,9 @@
 </section>
 
 <script src="js/fetchPosts.js"></script>
+
+<!-- Modal -->
+<?php include('inc/modal-gat.php'); ?>
+<?php include('inc/modal-cat.php'); ?>
 
 <?php include('footer.php'); ?>
