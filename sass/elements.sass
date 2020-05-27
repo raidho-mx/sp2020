@@ -394,7 +394,7 @@ header
 		top: 43px
 		left: -78px
 		padding: 10px
-		+transition(all ease 0.5)
+		+transition(all ease 0.5s)
 		width: 170px
 		&:after
 			content: ''
@@ -408,10 +408,17 @@ header
 	&:hover
 		.has-txt
 			opacity: 1
-			+transition(all ease 0.5)
+			+transition(all ease 0.5s)
 	@media (max-width: $phone_b)
 		border: 1px solid $c-blue
 		color: $c-blue
+
+.i-btn-lg
+	.has-txt
+		width: 360px
+		left: -258px
+		&:after
+			left: 252px
 
 //THUMBNAIL IMAGES
 .img-thumb-50
@@ -672,6 +679,9 @@ section.bg-orange
 	z-index: 1
 	> div
 		+border-radius(15px)
+	> div:nth-child(7)
+		z-index: -1
+		position: relative
 	@media (max-width: $med_b)
 		top: 90px
 	@media (max-width: $tablet_b)
@@ -683,6 +693,8 @@ section.bg-orange
 		.bg-white
 			+border-radius(15px)
 			+box-shadow(0 0 30px 0 rgba(0,0,0,0.1))
+		> div:nth-child(7) > button
+			color: $c-white!important
 
 
 .small-cir
