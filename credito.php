@@ -50,25 +50,25 @@
 					</div>
 					<div class="col-lg-6 mb-lg-3 mb-4">
 						<p class="is-bold c-dark-blue mb-3">2. ¿A qué banco?</p>
-						<select class="form-control txt24 text-right c-black" name="">
+						<select class="form-control txt24 text-right c-dark-blue has-dark-blue-select" name="">
 							<option value="a-la-vista">Elige tu banco</option>
 						</select>
 					</div>
 					<div class="col-lg-6 mb-lg-3 mb-4">
 						<p class="is-bold c-dark-blue mb-3">3. ¿Qué tarjeta?</p>
-						<select class="form-control txt24 c-black" name="">
+						<select class="form-control txt24 c-dark-blue has-dark-blue-select" name="">
 							<option value="a-la-vista">Elige tu tarjeta</option>
 						</select>
 					</div>
 					<div class="col-12 mb-lg-3 mb-4">
 						<p class="is-bold c-dark-blue mb-3">4. ¿A qué plazo deseas pagar?</p>
-						<select class="form-control txt24 c-black" name="">
+						<select class="form-control txt24 c-dark-blue has-dark-blue-select" name="">
 							<option value="a-la-vista">12 Meses</option>
 						</select>
 					</div>
 					<div class="col-12 mb-lg-5 mb-lg-3 mb-4">
 						<p class="is-bold c-dark-blue mb-3">5. ¿Cómo es tu historial crediticio?</p>
-						<select class="form-control txt24 c-black" name="">
+						<select class="form-control txt24 c-dark-blue has-dark-blue-select" name="">
 							<option value="a-la-vista">Muy Bueno</option>
 						</select>
 					</div>
@@ -79,7 +79,7 @@
 			</div>
 			<!-- SEGUNDA COLUMNA -->
 			<div class="col-lg-6 p-sm-auto p-0">
-				<p class="is-bold c-dark-blue mb-3 pl-lg-0 pl-4 pr-4">6. Tu ahorro:</p>
+				<p class="is-bold c-dark-blue mb-3 pl-lg-0 pl-4 pr-4">6. Tu ahorro es:</p>
 				<div class="bg-white has-md-shadow is-bold mb-lg-0 mb-4 p-3">
 					<!-- BLOQUE "TU GANANCIA BREAK (DESKTOP)" -->
 					<div class="d-lg-block d-none mb-md-5 mb-4">
