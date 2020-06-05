@@ -303,10 +303,3 @@
 			$(".has-menu li:nth-child(4) > a").addClass('c-blue');
 			break;
 	}
-
-
-
-// REMOVE &#8232
-	$("body").children().each(function() {
-		$(this).html($(this).html().replace(/&#8232;/g," "));
-	});
