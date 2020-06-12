@@ -83,7 +83,7 @@ const appendPosts = function (posts) {
             "url(" + data.media_details.sizes.medium_large.source_url + ")";
         })
         .catch((error) => {
-          alert(error);
+          //alert(error);
           console.log(error);
         });
       thumbnail.appendChild(img);
@@ -104,7 +104,7 @@ const appendPosts = function (posts) {
           });
         })
         .catch((error) => {
-          alert(error);
+          //alert(error);
           console.log(error);
         });
       // post title
@@ -146,7 +146,7 @@ const fetchPosts = function () {
       }
     })
     .catch((error) => {
-      alert(error);
+      //alert(error);
       console.log(error);
     });
 };
