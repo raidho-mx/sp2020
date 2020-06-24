@@ -35,7 +35,7 @@
 </section>
 
 <!-- BLOQUE FILTRAR ENTRADAS -->
-<section class="pb-100 pt-100 fade-in delay1">
+<section class="pb-100 pt-100">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 c-dark-blue txt16">

@@ -20,7 +20,7 @@
 					<a href="terminos-condiciones-servicios-electronicos.php" class="c-white d-block mb-2"><b>Términos y Condiciones</b></a>
 					<a href="https://crediclub.com/financiera.html" target="_blank" class="c-white d-block mb-2"><b>Información Financiera</b></a>
 					<a href="#" class="c-white d-block mb-2" data-toggle="modal" data-target="#ModalUnidadEspecializadaCondusef" id="buttonUnidadEspecializada"><b>Unidad Especialzada Condusef</b></a>
-					<a href="buro-entidades-financieras.php" target="_blank" class="has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
+					<a href="buro-entidades-financieras.php" class="has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
 				</div>
 				<div class="col-3 d-flex flex-column">
 					<p class="mb-2">Contacto:</p>
@@ -80,7 +80,7 @@
 							<a href="terminos-condiciones-servicios-electronicos.php" class="c-white d-block mb-2"><b>Términos y Condiciones</b></a>
 							<a href="https://crediclub.com/financiera.html" target="_blank" class="c-white d-block mb-2"><b>Información Financiera</b></a>
 							<a href="#" class="c-white d-block mb-2" data-toggle="modal" data-target="#ModalUnidadEspecializadaCondusef" id="buttonUnidadEspecializada" class="c-white d-block mb-2"><b>Unidad Especialzada Condusef</b></a>
-							<a href="buro-entidades-financieras.php" target="_blank" class="has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
+							<a href="buro-entidades-financieras.php" class="has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
 						</div>
 					</div>
 				</div>
