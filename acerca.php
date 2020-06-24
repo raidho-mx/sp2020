@@ -39,7 +39,7 @@
 		</div>
 		<div class="timeline">
 			<div class="left d-flex justify-content-start">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca1.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2005</p>
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="right d-flex justify-content-end">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca2.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2009</p>
@@ -61,7 +61,19 @@
 				</div>
 			</div>
 			<div class="left d-flex justify-content-start">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca3.svg');"></div>
+					<div class="c-dark-blue mr-3">
+						<p class="txt24 c-dark-blue is-black">2009</p>
+					</div>
+					<div class="mt-auto mb-auto">
+						<p class="c-blue is-bold">Lanzamiento Crédito Mujer Activa</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="right d-flex justify-content-end">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca3.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2014</p>
@@ -71,8 +83,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="right d-flex justify-content-end">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+			<div class="left d-flex justify-content-start">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca1.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2015</p>
@@ -82,8 +94,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="left d-flex justify-content-start">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+			<div class="right d-flex justify-content-end">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca1.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2016</p>
@@ -93,8 +105,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="right d-flex justify-content-end">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+			<div class="left d-flex justify-content-start">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca4.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2017</p>
@@ -104,19 +116,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="left d-flex justify-content-start">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
-					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca5.svg');"></div>
-					<div class="c-dark-blue mr-3">
-						<p class="txt24 c-dark-blue is-black">2017</p>
-					</div>
-					<div class="mt-auto mb-auto">
-						<p class="c-blue is-bold">Nuestra tasa incremento al 11% y se convirtió en la más alta del mercado</p>
-					</div>
-				</div>
-			</div>
 			<div class="right d-flex justify-content-end">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca6.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2018</p>
@@ -127,24 +128,24 @@
 				</div>
 			</div>
 			<div class="left d-flex justify-content-start">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
-					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca6.svg');"></div>
-					<div class="c-dark-blue mr-3">
-						<p class="txt24 c-dark-blue is-black">2019</p>
-					</div>
-					<div class="mt-auto mb-auto">
-						<p class="c-blue is-bold">Captamos más de 600 millones a inicios de este año</p>
-					</div>
-				</div>
-			</div>
-			<div class="right d-flex justify-content-end">
-				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px p-sm-5 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
 					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca7.svg');"></div>
 					<div class="c-dark-blue mr-3">
 						<p class="txt24 c-dark-blue is-black">2019</p>
 					</div>
 					<div class="mt-auto mb-auto">
 						<p class="c-blue is-bold">Emisión de certificados bursátiles en la Bolsa Mexicana de Valores</p>
+					</div>
+				</div>
+			</div>
+			<div class="right d-flex justify-content-end">
+				<div class="col-lg-5 mb-lg-0 mb-5 bg-white border-15px  p-sm-4 pl-3 pr-3 pt-4 pb-4 has-md-shadow d-flex">
+					<div class="has-cir bg-img" style="background-image: url('img/icon-acerca6.svg');"></div>
+					<div class="c-dark-blue mr-3">
+						<p class="txt24 c-dark-blue is-black">2020</p>
+					</div>
+					<div class="mt-auto mb-auto">
+						<p class="c-blue is-bold">Captamos más de 900 millones en menos de 4 años</p>
 					</div>
 				</div>
 			</div>
