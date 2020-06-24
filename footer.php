@@ -20,7 +20,7 @@
 					<a href="terminos-condiciones-servicios-electronicos.php" class="c-white d-block mb-2"><b>Términos y Condiciones</b></a>
 					<a href="https://crediclub.com/financiera.html" target="_blank" class="c-white d-block mb-2"><b>Información Financiera</b></a>
 					<a href="#" class="c-white d-block mb-2" data-toggle="modal" data-target="#ModalUnidadEspecializadaCondusef" id="buttonUnidadEspecializada"><b>Unidad Especialzada Condusef</b></a>
-					<a href="https://supertasas.com/201905-Costos-y-comisiones.pdf" target="_blank" class="c-white d-block mb-2"><b>Consulta los costos y las comisiones<br> de nuestros productos</b></a>
+					<a href="buro-entidades-financieras.php" target="_blank" class="has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
 				</div>
 				<div class="col-3 d-flex flex-column">
 					<p class="mb-2">Contacto:</p>
@@ -41,7 +41,7 @@
 						<p style="line-height: 32px;"><b>Crediclub S.A. de C.V., S.F.P., Regina 407, Colonia Regina, Monterrey, Nuevo León. C.P. 64290</b></p>
 						<div class="d-flex no-gutters mt-5">
 							<a href="https://www.crediclub.com/" target="_blank" class="col-auto"><img src="img/crediclub-logotipo-white.png" alt=""></a>
-							<a href="https://www.buro.gob.mx/" target="_blank" class="col-auto ml-5 has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
+							<a href="https://supertasas.com/201905-Costos-y-comisiones.pdf" target="_blank" class="ml-auto"><b>Consulta los costos y las comisiones de nuestros productos</b></a>
 						</div>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 							<a href="terminos-condiciones-servicios-electronicos.php" class="c-white d-block mb-2"><b>Términos y Condiciones</b></a>
 							<a href="https://crediclub.com/financiera.html" target="_blank" class="c-white d-block mb-2"><b>Información Financiera</b></a>
 							<a href="#" class="c-white d-block mb-2" data-toggle="modal" data-target="#ModalUnidadEspecializadaCondusef" id="buttonUnidadEspecializada" class="c-white d-block mb-2"><b>Unidad Especialzada Condusef</b></a>
-							<a href="https://supertasas.com/201905-Costos-y-comisiones.pdf" target="_blank" class="c-white d-block mb-2"><b>Consulta los costos y las comisiones de nuestros productos</b></a>
+							<a href="buro-entidades-financieras.php" target="_blank" class="has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
 						</div>
 					</div>
 				</div>
@@ -89,7 +89,7 @@
 					<p style="line-height: 32px;"><b>Crediclub S.A. de C.V., S.F.P., Regina 407, Colonia Regina, Monterrey, Nuevo León. C.P. 64290</b></p>
 					<div class="d-flex flex-column no-gutters pt-4">
 						<a href="https://www.crediclub.com/" target="_blank" class="col-auto pb-4"><img src="img/crediclub-logotipo-white.png" alt=""></a>
-						<a href="https://www.buro.gob.mx/" target="_blank" class="col-auto has-buro-logo"><img src="img/buro-logotipo.png" alt=""></a>
+						<a href="https://supertasas.com/201905-Costos-y-comisiones.pdf" target="_blank" class="c-white d-block mb-2"><b>Consulta los costos y las comisiones de nuestros productos</b></a>
 					</div>
 				</div>
 			</div>

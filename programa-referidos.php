@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
-<section class="bg-blue-to-gray bg-espiral">
-	<div class="container pt-100 pb-md-0 pb-3">
+<section class="bg-dark-blue bg-espiral">
+	<div class="container pt-100 pb-100">
 		<!-- BLOQUE PRINCIPAL C/IMAGEN -->
 		<div class="row mb-md-0 mb-4">
 			<div class="col-lg-6 text-lg-left text-center">
@@ -14,44 +14,49 @@
 				</div>
 			</div>
 		</div>
-		<!-- NUMERALIA -->
-		<div class="overlaped-box row pl-md-5 pr-md-5 pt-md-4 pb-md-5 pr-0 pt-3 pb-0" id="numbers3">
+	</div>
+</section>
+
+<!-- ESPACIO NO BORRAR -->
+<section class="bg-light-gray pt-100 pb-100">
+	<div class="container">
+		<div class="row" id="numbers3">
 			<div class="col-12 pl-0 pr-0 pb-100 text-md-left text-center">
-				<p class="txt48 c-blue-sm-white is-black">¿Cómo funciona?</p>
+				<p class="txt48 c-blue is-black">¿Cómo funciona?</p>
 			</div>
-			<div class="col-lg-3 col-md-6 bg-white-md pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay1">
-				<div class="w-100 h-100 bg-light-gray border-14 p-4 text-center mb-md-4">
+			<div class="col-lg-3 col-md-6 pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay1">
+				<div class="w-100 h-100 bg-white border-14 p-4 text-center mb-md-4">
 					<div class="overlaped-img">
 						<img src="img/icon-referidos1.svg" alt="icono inversión 6">
 					</div>
 					<p class="txt24">Invita a un amigo a invertir, dando </br><span class="cursor-pointer is-bold c-blue has-underline" data-toggle="modal" data-target="#ModalReferidos">clic aquí</span>.</p>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 bg-white-md pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay2">
-				<div class="w-100 h-100 bg-light-gray border-14 p-4 text-center mb-md-4">
+			<div class="col-lg-3 col-md-6 pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay2">
+				<div class="w-100 h-100 bg-white border-14 p-4 text-center mb-md-4">
 					<div class="overlaped-img">
 						<img src="img/icon-referidos2.svg" alt="icono inversión 6">
 					</div>
 					<p class="txt24">Asegura que tu amigo abra su cuenta.</p>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 bg-white-md pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay3">
-				<div class="w-100 h-100 bg-light-gray border-14 p-4 text-center mb-md-4">
+			<div class="col-lg-3 col-md-6 pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay3">
+				<div class="w-100 h-100 bg-white border-14 p-4 text-center mb-md-4">
 					<div class="overlaped-img">
 						<img src="img/icon-referidos3.svg" alt="icono inversión 6">
 					</div>
 					<p class="txt24">Asegura que invierta mínimo $20,000 pesos.</p>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 bg-white-md pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay4">
-				<div class="w-100 h-100 bg-light-gray border-14 p-4 text-center mb-md-4">
+			<div class="col-lg-3 col-md-6 pl-md-3 pl-0 pr-md-3 pr-0 pt-0 pb-0 mb-lg-0 mb-4 text-md-left text-center fade-in delay4">
+				<div class="w-100 h-100 bg-white border-14 p-4 text-center mb-md-4">
 					<div class="overlaped-img">
 						<img src="img/icon-referidos4.svg" alt="icono inversión 6">
 					</div>
 					<p class="txt24">Ambos reciben $500 pesos en dinero electrónico.</p>
 				</div>
 			</div>
-			<div class="col-12 p-lg-0 mt-5 bg-white p-4 mb-md-0 mb-5">
+			<div class="col-12 p-lg-0 mt-md-5 mt-3 p-4">
 				<p><b>Recuerda:</b></p></br>
 				<p>- Programa exclusivo para clientes SuperTasas.com</p>
 				<p>- La inversión tiene que realizarse en los primeros 7 días después de la apertura de la cuenta.</p>
@@ -60,13 +65,6 @@
 				<p>- Consulta <a href="#" class="c-blue has-underline">términos</a> y <a href="#" class="c-blue has-underline">condiciones</a>.</p>
 			</div>
 		</div>
-	</div>
-</section>
-
-<!-- ESPACIO NO BORRAR -->
-<section class="bg-light-gray pt-100 d-md-flex d-none">
-	<div class="pt-100 d-md-block d-none"></div>
-	<div class="container">
 	</div>
 </section>
 
