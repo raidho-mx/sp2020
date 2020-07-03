@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+	<link rel="stylesheet" href="css/formulario-inversion.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
 	<title>SuperTasas | Home</title>
@@ -43,7 +44,16 @@
 				<li><a href="blog.php" class="pl-3 pr-3 is-bold">Blog</a></li>
 				<li><a href="tel:+8180009810" class="has-icon c-green pl-3 pr-3 is-bold">(81) 8000 9810</a></li>
 				<li><a href="#" class="has-btn has-sm-btn c-white bg-blue">Abre tu cuenta</a></li>
-				<li><a href="#" class="pl-3 pr-3 is-bold">Inicia sesión</a></li>
+				<li>
+					<a class="pl-3 pr-3 is-bold" id="triggerIniciaSesion">Inicia sesión</a>
+					<!-- SESION NAV -->
+					<div class="sesion-nav bg-blue">
+						<div class="w-100 m-auto text-center d-flex flex-wrap">
+							<a href="iniciar-sesion.php" class="txt18 c-white is-bold m-auto">Inversión</a>
+							<a href="credito.php" class="txt18 c-white is-bold m-auto">Crédito</a>
+						</div>
+					</div>
+				</li>
 			</div>
 		</nav>
 	</div>
@@ -66,6 +76,13 @@
 			<a href="acerca.php" class="c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">Conócenos</a>
 			<a href="blog.php" class="c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">Blog</a>
 			<a href="#" class="has-icon c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4">(81) 8000 9810</a>
+			<a href="#" class="has-arrow-down collapsed c-white pl-3 pr-3 is-black d-block w-100 pt-3 pb-3 pl-4 pr-4" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Iniciar sesión</a>
+			<div class="collapse bg-dark-blue" id="collapse2">
+				<div class="pt-3 pb-3 pl-4 pr-4">
+					<a href="iniciar-sesion.php" class="c-white pb-3 d-block w-100 border-bottom">Inversión</a>
+					<a href="#" class="c-white pt-3 d-block w-100">Crédito</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </aside>
