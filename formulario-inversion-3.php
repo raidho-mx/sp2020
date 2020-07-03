@@ -113,7 +113,7 @@
 			<div class="d-flex flex-wrap align-items-end w-100 mb-4">
 				<div class="col-lg-4 mb-lg-3 mb-4">
 					<div class="position-relative">
-						<p class="c-black mr-3 mb-3 position-relative">Número máximo de movimientos en un sólo mes</p>
+						<p class="c-black mr-3 mb-3 position-relative mr-3">Número máximo de movimientos en un sólo mes</p>
 						<div class="i-btn-sm has-tooltip-top">i
 							<div class="tooltip-box bg-dark-blue txt18">20 movimientos son suficientes para la mayoría de nuestros clientes</div>
 						</div>
@@ -122,7 +122,7 @@
 				</div>
 				<div class="col-lg-4 mb-lg-3 mb-4">
 					<div class="position-relative">
-						<p class="c-black mb-3 position-relative">Cantidad máxima a invertir en un sólo mes</p>
+						<p class="c-black mb-3 position-relative mr-3">Cantidad máxima a invertir en un sólo mes</p>
 						<div class="i-btn-sm has-tooltip-top">i
 							<div class="tooltip-box bg-dark-blue txt18">Este es el dinero máximo que podrás depositar en un mes</div>
 						</div>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="col-lg-4 mb-lg-3 mb-4">
 					<div class="position-relative">
-						<p class="c-black mb-3 position-relative">Límite de transferencias electrónicas</p>
+						<p class="c-black mb-3 position-relative mr-3">Límite de transferencias electrónicas</p>
 						<div class="i-btn-sm has-tooltip-top">i
 							<div class="tooltip-box bg-dark-blue txt18">Este es el dinero máximo que podrás retirar en una transacción</div>
 						</div>

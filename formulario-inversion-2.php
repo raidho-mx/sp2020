@@ -601,7 +601,7 @@
 					<div class="invalid-feedback1 w-100 mb-4" style="display: none;">
 						<p class="txt18 text-danger">Falta llenar campos marcados en rojo</p>
 					</div>
-					<a href='formulario-inversion-1.php' class="has-btn has-lg-btn min-w-220 bg-white has-button-shadow c-black mr-4">Anterior</a>
+					<a href='formulario-inversion-1.php' class="has-btn has-lg-btn min-w-220 bg-white has-button-shadow c-black mr-4">Regresar</a>
 					<button class="has-btn has-lg-btn min-w-220 bg-blue c-white">Siguiente</button>
 				</div>
 			</div>
