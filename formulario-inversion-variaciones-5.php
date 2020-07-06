@@ -32,7 +32,7 @@
 				<div class="pill visited border-50px is-bold p-2 txt24">
 					<a href="formulario-inversion-4.php"><span class="cir-30x30 bg-dark-blue c-white mr-2">4</span> Beneficiarios</a>
 				</div>
-				<div class="pill disabled border-50px is-bold p-2 txt24">
+				<div class="pill validated border-50px is-bold p-2 txt24">
 					<a href="formulario-inversion-5.php"><span class="cir-30x30 bg-dark-blue c-white mr-2">5</span> Documentación</a>
 				</div>
 			</div>
@@ -62,7 +62,7 @@
 					<p class="c-black mb-3">* Comprobante de domicilio (en caso de que la INE/IFE lo tenga, no es necesario otro documento)</p>
 					<div class="js box">
 						<input type="file" name="file-2[]" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="" required>
-						<label for="file-2" class="d-flex invalid-feedback label">
+						<label for="file-2" class="d-flex valid invalid-feedback label">
 							<div class="img mr-3"></div>
 							<span class="txt18">Subir archivo</span>
 						</label>
@@ -77,7 +77,7 @@
 					<p class="c-black mb-3">Opcional pero altamente recomendado, estado de cuenta donde se confirme la cuenta CLABE</p>
 					<div class="js box">
 						<input type="file" name="file-3[]" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="" required>
-						<label for="file-3" class="d-flex invalid-feedback label">
+						<label for="file-3" class="d-flex invalid invalid-feedback label">
 							<div class="img mr-3"></div>
 							<span class="txt18">Subir archivo</span>
 						</label>

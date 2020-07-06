@@ -679,4 +679,22 @@ select.first-option-gray option:nth-child(1) {
   }
 }
 
+.inputfile-1 + .invalid {
+  background-color: #DB4437 !important;
+}
+.inputfile-1 + .invalid .img {
+  background-image: url("../img/icon-upload-error.svg");
+}
+
+.was-validated :valid ~ .invalid-feedback.label,
+.was-validated :valid ~ .invalid-tooltip.label,
+.inputfile-1 + .valid {
+  background-color: #00DF82 !important;
+}
+.was-validated :valid ~ .invalid-feedback.label .img,
+.was-validated :valid ~ .invalid-tooltip.label .img,
+.inputfile-1 + .valid .img {
+  background-image: url("../img/icon-arrow-check-circle.svg");
+}
+
 /*# sourceMappingURL=formulario-inversion.css.map */

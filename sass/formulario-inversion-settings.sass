@@ -1,0 +1,534 @@
+/* FORMULARIOS ABRE TU CUENTA */
+
+// INICIA SESION NAV
+#triggerIniciaSesion
+	position: relative
+	cursor: pointer
+
+.sesion-nav
+	background-color: $c-blue
+	+border-radius(14px)
+	position: fixed
+	height: auto
+	width: 142px
+	padding: 8px 30px 13px 30px
+	visibility: hidden
+	opacity: 0
+	top: 80px
+	@include transition (all ease 0.3s)
+	z-index: 3
+	a
+		border-bottom: 1px solid $c-blue
+		&:hover
+			border-bottom: 1px solid $c-white
+	&:after
+		content: url("../img/icon-dropdown-arrow.svg")
+		height: 20px
+		width: 29px
+		position: absolute
+		transition: all ease 0.3s
+		top: -15px
+		left: 56px
+
+.sesion-nav.show
+	@include transition (all ease 0.3s)
+	visibility: visible
+	opacity: 1
+	top: 80px
+
+
+// GENERAL SETTINGS
+.has-list-bullet
+	li:before
+		content: '•'
+		font-size: 21px
+		margin-right: 15px
+
+.has-button-shadow
+	+box-shadow(0px 0px 10px 0px rgba(0,0,0,0.1))
+
+input[type="password"]
+	padding: 16px 20px
+	@media (max-width: $tablet_b)
+		height: auto !important
+
+.has-gray-placeholder
+	height: 64px!important
+	border-width: 1px!important
+	border-color: white
+	@media (max-width: $tablet_b)
+		padding: 16px 20px!important
+		height: auto !important
+
+.vh-60
+	height: 60vh
+	@media (max-width: $tablet_b)
+		height: auto
+
+.max-w-340
+	max-width: 340px
+
+.max-w-640
+	max-width: 640px
+
+.c-3237BE
+	color: #3237BE
+
+select.first-option-gray
+	option:nth-child(1)
+		color: $c-gray
+
+.has-lg-btn
+	@media (min-width: $tablet_b)
+		padding: 17px 74px!important
+
+.has-wide-btn
+	width: 100%
+	+border-radius(60px!important)
+	padding: 14px 30px!important
+	@media (min-width: $tablet_b)
+		height: 100px
+		padding: 24px 30px!important
+
+.border-50px
+	+border-radius(50px)
+
+.border-979797-1px
+	border: 1px solid #979797
+
+.cir-120px
+	width: 120px
+	padding-bottom: 120px
+	+border-radius(120px)
+	@media (max-width: $tablet_b)
+		min-width: 80px
+		min-height: 80px
+
+.has-tooltip-top
+	.tooltip-box
+		+border-radius(10px)
+		font-size: 18px
+		line-height: 21px
+		color: $c-white
+		position: absolute
+		text-align: left
+		padding: 10px
+		opacity: 0
+		visibility: hidden
+		pointer-events: none
+		left: -40px
+		bottom: 30px
+		width: 270px
+		padding-top: 8px
+		z-index: 1
+		&:after
+			content: ''
+			height: 20px
+			width: 20px
+			background: $c-dark-blue
+			position: absolute
+			+transform(rotate(45deg))
+			bottom: -7px
+			left: 38px
+			z-index: -1
+	&:hover
+		.tooltip-box
+			opacity: 1
+			visibility: visible
+			pointer-events: auto
+	@media (max-width: 990px)
+		right: -10px
+		.tooltip-box
+			font-size: 14px
+			line-height: 18px
+	@media (max-width: $tablet_b)
+		right: 100px
+		.tooltip-box
+			left: inherit
+			right: -30px
+			&:after
+				left: inherit
+				right: 26px
+	@media (max-width: $phone_b)
+		right: 80px
+
+.has-tooltip-top-center
+	.tooltip-box
+		border-radius: 10px
+		font-size: 18px
+		line-height: 21px
+		color: #FFFFFF
+		position: absolute
+		text-align: left
+		padding: 10px
+		opacity: 0
+		visibility: hidden
+		pointer-events: none
+		left: -14px
+		bottom: 56px
+		width: 290px
+		padding-top: 8px
+		z-index: 1
+		right: 0
+		&:after
+			content: ""
+			height: 20px
+			width: 20px
+			background: #002C66
+			position: absolute
+			+transform(rotate(45deg))
+			bottom: -7px
+			left: 0
+			z-index: -1
+			margin: 0 auto
+			right: 0
+	&:hover
+		.tooltip-box
+			opacity: 1
+			visibility: visible
+			pointer-events: auto
+	@media (max-width: 990px)
+		right: -10px
+		.tooltip-box
+			font-size: 14px
+			line-height: 18px
+	@media (max-width: $tablet_b)
+		right: 100px
+		.tooltip-box
+			left: inherit
+			right: -30px
+			&:after
+				left: inherit
+				right: 26px
+	@media (max-width: $phone_b)
+		right: 80px
+
+.i-btn-sm
+	bottom: 0
+	cursor: pointer
+	width: 15px
+	height: 15px
+	border: 1px solid $c-dark-blue
+	+border-radius(15px)
+	font-size: 12px
+	text-align: center
+	right: 5px
+	position: absolute
+	line-height: 12.5px
+
+// TEMPLATE SETTINGS
+.nav-pills
+	.pill
+		display: flex
+		font-size: 24px
+		line-height: 29px
+		cursor: default
+		padding-right: 30px!important
+		white-space: nowrap
+	.active,
+	.active > a
+		color: $c-white
+		background-color: $c-blue
+	.disabled,
+	.disabled > a
+		color: $c-blue
+		.cir-30x30
+			background-color: $c-gray
+			color: $c-dark-blue
+	.visited,
+	.visited > a
+		color: $c-green
+		.cir-30x30
+			background-color: $c-green
+			color: transparent
+			position: relative
+			&:after
+				content: url('../img/icon-arrow-check-white.svg')
+				top: 1px
+				right: 0
+				left: 0
+				margin: auto
+				position: absolute
+	.validated,
+	.validated > a
+		color: $c-white
+		background-color: $c-blue
+		.cir-30x30
+			background-color: $c-green
+			color: transparent
+			position: relative
+			&:after
+				content: url('../img/icon-arrow-check-white.svg')
+				top: 1px
+				right: 0
+				left: 0
+				margin: auto
+				position: absolute
+	@media (max-width: $med_b)
+		.cir-30x30
+			line-height: 23px
+			font-size: 14px
+			height: 24px
+			width: 24px
+		.pill
+			line-height: 20px
+			font-size: 14px
+	@media (max-width: $phone_b)
+		.pill
+			display: none
+		.pill.active
+			display: block!important
+
+//PROGRESS BAR
+// TEMPLATE SETTINGS
+.nav-progress
+	.pill
+		font-size: 24px
+		line-height: 29px
+		cursor: default
+		padding-right: 30px!important
+		position: relative
+		text-align: center
+		width: 20%
+	.has-cir
+		display: flex
+	.has-cir:after
+		content: ""
+		height: 15px
+		width: 55%
+		position: absolute
+		background: white
+		top: 16px
+		left: -14px
+		z-index: 0
+		@media (max-width: $med_b)
+			height: 9px
+	.has-cir:before
+		content: ""
+		height: 15px
+		width: 55%
+		position: absolute
+		background: white
+		top: 16px
+		right: -12px
+		z-index: 0
+		@media (max-width: $med_b)
+			right: 0px
+			height: 9px
+	.pill:nth-child(1) .has-cir:after
+		content: ""
+		height: 15px
+		width: 55%
+		position: absolute
+		background: white
+		top: 16px
+		right: -16px
+		left: inherit
+		z-index: 0
+		@media (max-width: $med_b)
+			height: 9px
+	.pill:last-child .has-cir:before
+		content: none
+	.cir-30x30
+		z-index: 1
+	.disabled
+		color: $c-dark-blue
+		.cir-30x30
+			background-color: $c-dark-blue
+			color: $c-white
+	.pill.disabled .has-cir:after,
+	.pill.disabled .has-cir:before
+		background-color: $c-white
+	.validated
+		color: $c-green
+		.cir-30x30
+			background-color: $c-green
+			color: transparent
+			position: relative
+			&:after
+				content: url('../img/icon-arrow-check-dark-blue.svg')
+				top: 1px
+				right: 0
+				left: 0
+				margin: auto
+				position: absolute
+	.pill.validated .has-cir:after,
+	.pill.validated .has-cir:before
+		background-color: $c-green
+	@media (max-width: $med_b)
+		.cir-30x30
+			line-height: 23px
+			font-size: 14px
+			height: 24px
+			width: 24px
+		.pill
+			line-height: 20px
+			font-size: 14px
+			width: 100%
+	@media (max-width: $phone_b)
+		.pill
+			-ms-flex-align: center!important
+			align-items: center!important
+			display: flex
+			text-align: left
+			width: 100%
+			.has-cir, > p
+				display: inline-block
+			.has-cir
+				margin-right: 20px
+		.pill.validated .has-cir:after,
+		.pill.validated .has-cir:before,
+		.pill.disabled .has-cir:after,
+		.pill.disabled .has-cir:before
+			content: none
+		.pill.active
+			display: block!important
+
+// CHECKBOX
+/* Hide the browser's default checkbox */
+.label-container2
+	input
+		color: $c-blue
+		position: absolute
+		opacity: 0
+		cursor: pointer
+		height: 20px
+		width: 20px
+		z-index: 1
+	label
+		margin-left: 30px
+
+/* Create a custom checkbox */
+.checkmark-white
+	position: absolute
+	top: 4px
+	left: 0
+	height: 20px
+	width: 20px
+	background-color: $c-white
+	border: none
+	+border-radius(4px)
+	@media (max-width: 990px)
+		height: 20px
+		width: 20px
+
+/* When the checkbox is checked, add a blue background */
+.label-container2 input:checked ~ .checkmark-white
+	background-color: $c-white
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark-white:after
+	content: ""
+	position: absolute
+	display: none
+
+/* Show the checkmark when checked */
+.label-container2 input:checked ~ .checkmark-white:after
+	display: block
+
+/* Style the checkmark/indicator */
+.label-container2
+	.checkmark-white:after
+		left: 6px
+		top: 2px
+		width: 7px
+		height: 13px
+		border: solid $c-blue
+		border-width: 0 2px 2px 0
+		transform: rotate(45deg)
+		@media (max-width: 990px)
+			left: 7px
+			top: 2px
+
+// UPLOAD FILE BUTTON
+.js .inputfile
+	width: 0.1px
+	height: 0.1px
+	opacity: 0
+	overflow: hidden
+	position: absolute
+	z-index: -1
+
+.inputfile + label
+	font-family: "NTDapper-Bold"
+	max-width: 80%
+	font-weight: 700
+	text-overflow: ellipsis
+	white-space: nowrap
+	cursor: pointer
+	display: inline-block
+	overflow: hidden
+	padding: 17px 25px
+	+border-radius(50px)
+	@media (max-width: $tablet_b)
+		max-width: 100%
+		padding: 11px 25px
+		span
+			line-height: 28px
+
+.no-js .inputfile + label
+	display: none
+
+.inputfile:focus + label,
+.inputfile.has-focus + label
+	outline: 1px dotted #000
+	outline: -webkit-focus-ring-color auto 5px
+
+.inputfile + label svg
+	width: 1em
+	height: 1em
+	vertical-align: middle
+	fill: currentColor
+	margin-top: -0.25em
+	margin-right: 0.25em
+
+/* style 1 */
+
+.img
+	width: 30px
+	height: 30px
+	display: block
+	background-repeat: no-repeat
+	background-size: contain
+	background-position: center
+	background-image: url('../img/icon-upload.svg')
+
+.was-validated :invalid~.invalid-feedback .img
+	background-image: url('../img/icon-upload-error.svg')
+
+.inputfile-1 + label
+	color: $c-white
+	background-color: $c-blue
+	+transition(all ease 0.3s)
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover
+	+transition(all ease 0.3s)
+	background-color: $c-dark-blue
+
+.is-invalid~.invalid-feedback.label,
+.is-invalid~.invalid-tooltip.label,
+.was-validated :invalid~.invalid-feedback.label,
+.was-validated :invalid~.invalid-tooltip.label
+	background-color: #DB4437!important
+
+.invalid-feedback
+	font-size: 18px
+	line-height: 28px
+	@media (max-width: $tablet_b)
+		font-size: 16px
+		line-height: 20px
+
+.inputfile-1 + .invalid
+	background-color: #DB4437!important
+	.img
+		background-image: url('../img/icon-upload-error.svg')
+
+
+.was-validated :valid~.invalid-feedback.label,
+.was-validated :valid~.invalid-tooltip.label,
+.inputfile-1 + .valid
+	background-color: $c-green!important
+	.img
+		background-image: url('../img/icon-arrow-check-circle.svg')
