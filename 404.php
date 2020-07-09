@@ -10,7 +10,7 @@
 				<a href="index.php" class="has-btn bg-blue mr-sm-4 mb-sm-0 mb-3">Ir a página pricipal</a>
 			</div>
 			<div class="col-md-6 d-lg-block d-none">
-				<div class="big-cir bg-img" style="background-image: url('img/bg-home1.png');">
+				<div class="big-cir bg-img" style="background-image: url('img/bg-404.jpg');">
 					<div class="espiral-mask"></div>
 				</div>
 			</div>
@@ -32,7 +32,7 @@
 	</div>
 </section>
 
-<section class="bg-light-blue pt-100 pb-100">
+<section class="bg-white pt-100 pb-100">
 	<div class="container">
 		<div class="row pt-sm-100">
 			<div class="col-12 text-center">
